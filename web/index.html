@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Up Next · Vancouver</title>
+<meta name="description" content="See existing buildings and approved or proposed towers around any Vancouver address, in 3D, before you buy or lease.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='14' width='7' height='16' fill='%23aab2be'/><rect x='13' y='4' width='8' height='26' fill='%23e84c3d'/><rect x='23' y='10' width='6' height='20' fill='%23aab2be'/></svg>">
+<link rel="stylesheet" href="vendor/maplibre-gl-5.24.0.css">
+<link rel="stylesheet" href="css/app.css">
+<script src="vendor/maplibre-gl-5.24.0.js"></script>
+<script src="vendor/deck.gl-9.4.0.min.js"></script>
+</head>
+<body>
+<aside id="panel">
+  <header>
+    <h1>Up Next <span>Vancouver</span></h1>
+    <button id="panel-toggle" type="button" aria-label="Toggle panel">☰</button>
+  </header>
+  <div class="panel-body">
+    <p class="lede">See which towers are coming near a home before you buy or lease.</p>
+    <form id="search" role="search">
+      <input id="q" type="search" placeholder="Enter a Vancouver address" autocomplete="street-address" required>
+      <button type="submit">Go</button>
+    </form>
+    <p id="search-status" class="muted" aria-live="polite"></p>
+    <ul id="results"></ul>
+
+    <section>
+      <h2>Filters <small id="match-count" class="muted"></small></h2>
+      <div id="filters"></div>
+    </section>
+
+    <!-- Reserved for the shadow-analysis feature (Jan 1 / Jul 1 + time-of-day). See js/sun.js. -->
+    <section id="time-panel" data-feature="shadows" hidden></section>
+
+    <section>
+      <h2>Nearby developments</h2>
+      <div id="nearby"></div>
+    </section>
+
+    <p id="data-note" class="note" hidden>Development data hasn't been generated yet. It appears after the first scheduled data refresh.</p>
+    <p id="basemap-note" class="note" hidden>The basemap couldn't be loaded, so buildings are shown without streets.</p>
+
+    <footer class="muted">
+      <span id="data-date"></span><br>
+      Data: <a href="https://opendata.vancouver.ca" target="_blank" rel="noopener">City of Vancouver Open Data</a> ·
+      Geocoding © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors ·
+      Basemap <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>.<br>
+      Heights of proposed buildings are estimated from storey counts unless stated. For guidance only; not a substitute for the City's permit records.
+    </footer>
+  </div>
+</aside>
+
+<main id="map" aria-label="3D map"></main>
+
+<div id="camera" role="toolbar" aria-label="Camera">
+  <button data-cam="top" title="Top-down view">Top</button>
+  <button data-cam="oblique" title="Oblique view">3D</button>
+  <button data-cam="street" title="Street-level view">Street</button>
+  <button data-cam="left" title="Rotate left 45°">⟲</button>
+  <button data-cam="right" title="Rotate right 45°">⟳</button>
+  <button data-cam="north" title="Face north">N</button>
+  <button data-cam="home" title="Back to my address">⌂</button>
+</div>
+<p id="hint">Drag to pan · Right-drag or Ctrl-drag to rotate and tilt · Scroll to zoom</p>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

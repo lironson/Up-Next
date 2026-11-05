@@ -1,9 +1,7 @@
 name: Discover data schema
+# Dev tool: re-run manually to refresh data/_discovery/ (schema of City datasets).
 on:
   workflow_dispatch:
-  push:
-    branches: ["claude/**"]
-    paths: ["scraper/discover.py", ".github/workflows/discover.yml"]
 permissions:
   contents: write
 concurrency:
