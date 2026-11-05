@@ -1,0 +1,14 @@
+{
+ "https://rezoning.vancouver.ca/": {
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "https://rezoning.vancouver.ca/applications/": {
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "https://development.vancouver.ca/": {
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "https://development.vancouver.ca/applications": {
+  "error": "HTTP Error 403: Forbidden"
+ }
+}

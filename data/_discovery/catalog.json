@@ -1,0 +1,14 @@
+{
+ "_error_address": "HTTP Error 400: Bad Request",
+ "_error_building": "HTTP Error 400: Bad Request",
+ "_error_development": "HTTP Error 400: Bad Request",
+ "_error_footprint": "HTTP Error 400: Bad Request",
+ "_error_height": "HTTP Error 400: Bad Request",
+ "_error_massing": "HTTP Error 400: Bad Request",
+ "_error_parcel": "HTTP Error 400: Bad Request",
+ "_error_permit": "HTTP Error 400: Bad Request",
+ "_error_rezoning": "HTTP Error 400: Bad Request",
+ "_error_storey": "HTTP Error 400: Bad Request",
+ "_error_view": "HTTP Error 400: Bad Request",
+ "_error_zoning": "HTTP Error 400: Bad Request"
+}
