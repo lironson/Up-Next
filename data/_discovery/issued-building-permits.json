@@ -104,102 +104,102 @@
  ],
  "samples": [
   {
-   "permitnumber": "BP-2019-03381",
-   "permitnumbercreateddate": "2019-07-30",
-   "issuedate": "2019-08-16",
-   "permitelapseddays": 17,
-   "projectvalue": 70000.0,
+   "permitnumber": "DB-2018-01779",
+   "permitnumbercreateddate": "2018-04-04",
+   "issuedate": "2018-09-28",
+   "permitelapseddays": 177,
+   "projectvalue": 15000.0,
+   "typeofwork": "Demolition / Deconstruction",
+   "address": "7462 ONTARIO STREET, Vancouver, BC V5X 3B9",
+   "projectdescription": "Low Density Housing - Demolition / Deconstruction - \r\nTo demolish the existing one family dwelling building ($15,000) on this site.\r\nDemo contractor: JVT Excavation and Demolition Ltd (778-893-1643)",
+   "permitcategory": null,
+   "applicant": "Charles  Moorhead",
+   "applicantaddress": "207 West Hastings Street\r\n# 1210\r\nVancouver , BC  V6B1H7",
+   "propertyuse": [
+    "Dwelling Uses"
+   ],
+   "specificusecategory": [
+    "Single Detached House w/Sec Suite"
+   ],
+   "buildingcontractor": "JVT Excavating & Demolition Ltd",
+   "buildingcontractoraddress": "11246 78B Ave  \r\nDelta, BC  V4C 1R6",
+   "issueyear": "2018",
+   "geolocalarea": "Sunset",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1058307, 49.2171058], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "yearmonth": "2018-09",
+   "geo_point_2d": {
+    "lon": -123.1058307,
+    "lat": 49.2171058
+   }
+  },
+  {
+   "permitnumber": "DB-2017-01166",
+   "permitnumbercreateddate": "2017-03-03",
+   "issuedate": "2017-03-24",
+   "permitelapseddays": 21,
+   "projectvalue": 2500.0,
    "typeofwork": "Addition / Alteration",
-   "address": "717 E HASTINGS STREET, Vancouver, BC V6A 1R3",
-   "projectdescription": "Field Review - Addition / Alteration - 717 E Hastings St\r\n\r\nInterior alterations to provide tenant improvements for new office tenant in this existing office building on this site.\r\n\r\nScope of work: remove interior walls and doors, add new walls, door and accessible washroom. \r\n\r\nProcessed through CRC\r\n\r\nL2 - Lighting - Upgrade to incorporate Automatic Lighting Shutoff (per 9.4.1.1 of ASHRAE 90.1-...",
-   "permitcategory": "Renovation - Commercial/ Mixed Use - Lower Complexity",
-   "applicant": "Lori  Therres DBA: Counterpoint Interiors Inc",
-   "applicantaddress": "223-1118 Homer Street\r\nVancouver , BC  V6B 2X6",
+   "address": "3486 SEAFORTH DRIVE, Vancouver, BC V5M 4C5",
+   "projectdescription": "Enquiry Centre - Addition / Alteration - Interior alterations and a change of use from a one family dwelling to a one family dwelling with a secondary suite with one off-street parking space provided having vehicular access off the lane\r\n\r\nOK for SIPS per W.Wong, March 3, 2017.\r\n\r\nUpgrade for suite as per Special Inspection IA-2017-00079\r\n\r\nAddress note:\r\n3486 Seaforth Drive - north portion of 1st...",
+   "permitcategory": "Renovation - Residential - Lower Complexity",
+   "applicant": "HARJIT SOHPAUL",
+   "applicantaddress": "3857 GLENDALE ST\r\nVANCOUVER, BC  V5R1C6",
+   "propertyuse": [
+    "Dwelling Uses"
+   ],
+   "specificusecategory": [
+    "Single Detached House w/Sec Suite"
+   ],
+   "buildingcontractor": "Knaps Construction Ltd",
+   "buildingcontractoraddress": "3857 GLENDALE ST  \r\nVancouver, BC  V5R 1C6",
+   "issueyear": "2017",
+   "geolocalarea": "Renfrew-Collingwood",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.0306064, 49.2544618], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "yearmonth": "2017-03",
+   "geo_point_2d": {
+    "lon": -123.0306064,
+    "lat": 49.2544618
+   }
+  },
+  {
+   "permitnumber": "BP-2018-06006",
+   "permitnumbercreateddate": "2018-11-20",
+   "issuedate": "2019-02-08",
+   "permitelapseddays": 80,
+   "projectvalue": 600000.0,
+   "typeofwork": "Addition / Alteration",
+   "address": "1229 HORNBY STREET, Vancouver, BC V6Z 1W4",
+   "projectdescription": "High Density Housing / Commercial - Addition / Alteration - Interior and exterior work alterations to create a temporary sales office in this existing office space. Fire alarm from 1223 Hornby to be temporarily interconnected with this space.",
+   "permitcategory": null,
+   "applicant": "Glen Stokes DBA: Carscadden Stokes McDonald Architects Inc",
+   "applicantaddress": "310 - 1930 Pandora Street\r\nVancouver, BC  V5L 0C7",
    "propertyuse": [
     "Office Uses"
    ],
    "specificusecategory": [
-    "General Office"
+    "Temporary Sales Office"
    ],
    "buildingcontractor": null,
    "buildingcontractoraddress": null,
    "issueyear": "2019",
-   "geolocalarea": "Strathcona",
-   "geom": {
-    "type": "Feature",
-    "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.0884852, 49.2814314], \"type\": \"Point\"}, \"properties\": {}}"
-   },
-   "yearmonth": "2019-08",
-   "geo_point_2d": {
-    "lon": -123.0884852,
-    "lat": 49.2814314
-   }
-  },
-  {
-   "permitnumber": "BP-2019-05550",
-   "permitnumbercreateddate": "2019-12-06",
-   "issuedate": "2020-01-31",
-   "permitelapseddays": 56,
-   "projectvalue": 400000.0,
-   "typeofwork": "Addition / Alteration",
-   "address": "595 HOWE STREET, Vancouver, BC V6C 2T5",
-   "projectdescription": "Field Review - Addition / Alteration - #800 - 8th floor -  595 Howe St \r\n\r\nInterior alterations to suite #800 on the 8th floor (whole floor tenant) to renovate for new office tenant in this existing commercial building.\r\n\r\nLetters of assurance submitted:\r\nSch A: D. Massie, AIBC, 604.264.1450\r\nSch B (Arch): D. Massie, AIBC, 604.264.1450\r\nSch B (Elect): N.S. Bains, P.Eng, 604.569.6500\r\n\r\nOK for Fiel...",
-   "permitcategory": "Renovation - Commercial/ Mixed Use - Lower Complexity",
-   "applicant": "Lori  Therres DBA: Counterpoint Interiors Inc",
-   "applicantaddress": "223-1118 Homer Street\r\nVancouver , BC  V6B 2X6",
-   "propertyuse": [
-    "Office Uses"
-   ],
-   "specificusecategory": [
-    "General Office"
-   ],
-   "buildingcontractor": "Counterpoint Interiors Inc",
-   "buildingcontractoraddress": "1118 HOMER ST  \r\nUnit 223\r\nVancouver, BC  V6B 6L5",
-   "issueyear": "2020",
    "geolocalarea": "Downtown",
    "geom": {
     "type": "Feature",
     "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1174373, 49.2846042], \"type\": \"Point\"}, \"properties\": {}}"
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1294215, 49.2779521], \"type\": \"Point\"}, \"properties\": {}}"
    },
-   "yearmonth": "2020-01",
+   "yearmonth": "2019-02",
    "geo_point_2d": {
-    "lon": -123.1174373,
-    "lat": 49.2846042
-   }
-  },
-  {
-   "permitnumber": "BP-2021-02686",
-   "permitnumbercreateddate": "2021-06-02",
-   "issuedate": "2021-07-29",
-   "permitelapseddays": 57,
-   "projectvalue": 7466.8,
-   "typeofwork": "Addition / Alteration",
-   "address": "2415 COLUMBIA STREET, Vancouver, BC V5Y 3E7",
-   "projectdescription": "High Density Housing / Commercial - Addition / Alteration - Interior alteration to demise unit #102 into two units (#102 & # 103) on the second storey (main level) in this existing 3 storey office building.\r\n\r\nTo be reviewed under the 2019 VBBL.",
-   "permitcategory": null,
-   "applicant": "Lori  Therres DBA: Counterpoint Interiors Inc",
-   "applicantaddress": "223-1118 Homer Street\r\nVancouver , BC  V6B 2X6",
-   "propertyuse": [
-    "Office Uses"
-   ],
-   "specificusecategory": [
-    "General Office"
-   ],
-   "buildingcontractor": null,
-   "buildingcontractoraddress": null,
-   "issueyear": "2021",
-   "geolocalarea": "Mount Pleasant",
-   "geom": {
-    "type": "Feature",
-    "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1096722, 49.2636528], \"type\": \"Point\"}, \"properties\": {}}"
-   },
-   "yearmonth": "2021-07",
-   "geo_point_2d": {
-    "lon": -123.1096722,
-    "lat": 49.2636528
+    "lon": -123.1294215,
+    "lat": 49.2779521
    }
   }
  ],
