@@ -1,0 +1,23 @@
+# TEMPORARY: probe Council + Wikipedia structure. Deleted before merging to main.
+name: Probe dev sources
+on:
+  push:
+    branches: ["claude/dev-sources"]
+    paths: ["scraper/probe_dev_sources.py", ".github/workflows/probe.yml"]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: python scraper/probe_dev_sources.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/_discovery
+          git diff --cached --quiet || git commit -m "Probe report: council + wikipedia"
+          git push origin HEAD:${GITHUB_REF_NAME}
