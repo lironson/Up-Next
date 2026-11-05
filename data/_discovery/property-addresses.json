@@ -49,57 +49,57 @@
  ],
  "samples": [
   {
-   "civic_number": "7425",
-   "std_street": "YEW ST",
-   "p_parcel_id": "__FJ2244",
-   "pcoord": "08283050",
-   "site_id": "015985920",
+   "civic_number": "4688",
+   "std_street": "W 6TH AV",
+   "p_parcel_id": "__FJ1UV0",
+   "pcoord": "64302012",
+   "site_id": "013245945",
    "note": null,
-   "geo_local_area": "Kerrisdale",
+   "geo_local_area": "West Point Grey",
    "geom": {
     "type": "Feature",
     "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.16115573649546, 49.215926103171185], \"type\": \"Point\"}, \"properties\": {}}"
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.21459606491185, 49.26711257175633], \"type\": \"Point\"}, \"properties\": {}}"
    },
    "geo_point_2d": {
-    "lon": -123.16115573649546,
-    "lat": 49.215926103171185
+    "lon": -123.21459606491185,
+    "lat": 49.26711257175633
    }
   },
   {
-   "civic_number": "7425",
-   "std_street": "YEW ST",
-   "p_parcel_id": "__FJ2246",
-   "pcoord": "08283050",
-   "site_id": "011301708",
+   "civic_number": "4668",
+   "std_street": "W 6TH AV",
+   "p_parcel_id": "__FJ1UV8",
+   "pcoord": "64302022",
+   "site_id": "013245988",
    "note": null,
-   "geo_local_area": "Kerrisdale",
+   "geo_local_area": "West Point Grey",
    "geom": {
     "type": "Feature",
     "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1610427753771, 49.215480265545004], \"type\": \"Point\"}, \"properties\": {}}"
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.21404555221582, 49.26710594698105], \"type\": \"Point\"}, \"properties\": {}}"
    },
    "geo_point_2d": {
-    "lon": -123.1610427753771,
-    "lat": 49.215480265545004
+    "lon": -123.21404555221582,
+    "lat": 49.26710594698105
    }
   },
   {
-   "civic_number": "2606",
-   "std_street": "MARINE CRESCENT",
-   "p_parcel_id": "__FJ224A",
-   "pcoord": "79107392",
-   "site_id": "019139381",
+   "civic_number": "4630",
+   "std_street": "W 6TH AV",
+   "p_parcel_id": "__FJ1UVI",
+   "pcoord": "64302062",
+   "site_id": "010129774",
    "note": null,
-   "geo_local_area": "Kerrisdale",
+   "geo_local_area": "West Point Grey",
    "geom": {
     "type": "Feature",
     "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.16424158637754, 49.225989575290654], \"type\": \"Point\"}, \"properties\": {}}"
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.2130709386766, 49.26709109823944], \"type\": \"Point\"}, \"properties\": {}}"
    },
    "geo_point_2d": {
-    "lon": -123.16424158637754,
-    "lat": 49.225989575290654
+    "lon": -123.2130709386766,
+    "lat": 49.26709109823944
    }
   }
  ],

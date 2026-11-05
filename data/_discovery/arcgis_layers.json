@@ -1,0 +1,117 @@
+{
+ "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Licenses_and_Permits/MapServer/25": {
+  "name": "Permits (Issued)",
+  "fields": [],
+  "maxRecordCount": null,
+  "count": null,
+  "samples": []
+ },
+ "https://maps.vancouver.ca/server/rest/services/Hosted/BuildingFootprint/FeatureServer/6": {
+  "name": "Building Footprints",
+  "fields": [
+   [
+    "objectid",
+    "esriFieldTypeOID",
+    "OBJECTID"
+   ],
+   [
+    "globalid",
+    "esriFieldTypeGlobalID",
+    "GlobalID"
+   ],
+   [
+    "cov_loading_id",
+    "esriFieldTypeInteger",
+    "Loading ID"
+   ],
+   [
+    "cov_source_key",
+    "esriFieldTypeString",
+    "COV_SOURCE_KEY"
+   ]
+  ],
+  "maxRecordCount": 2000,
+  "count": 154124,
+  "samples": [
+   {
+    "globalid": "{D16E89CC-F454-49D2-887A-91E05C00A3DF}",
+    "cov_loading_id": 630571,
+    "cov_source_key": "22",
+    "objectid": 24126979
+   },
+   {
+    "globalid": "{E6B8AABA-4212-40ED-94BA-EA66A2CFD7A5}",
+    "cov_loading_id": 630572,
+    "cov_source_key": "23",
+    "objectid": 24126980
+   },
+   {
+    "globalid": "{1D96D555-2DFC-406D-A113-C2C73D823E79}",
+    "cov_loading_id": 630573,
+    "cov_source_key": "24",
+    "objectid": 24126981
+   },
+   {
+    "globalid": "{B0506586-38F1-4163-B54E-C37D531B4EF7}",
+    "cov_loading_id": 630574,
+    "cov_source_key": "25",
+    "objectid": 24126982
+   },
+   {
+    "globalid": "{B1363AFB-8053-4227-BBD0-D2CE44C1D05B}",
+    "cov_loading_id": 630575,
+    "cov_source_key": "26",
+    "objectid": 24126983
+   }
+  ]
+ },
+ "https://maps.vancouver.ca/server/rest/services/Hosted/MultipleBuildings/FeatureServer/0": {
+  "name": "Multiple Buildings",
+  "fields": [
+   [
+    "objectid",
+    "esriFieldTypeOID",
+    "OBJECTID"
+   ],
+   [
+    "main_address_count",
+    "esriFieldTypeString",
+    "Main Address Count"
+   ],
+   [
+    "cov_source_key",
+    "esriFieldTypeString",
+    "COV Source Key"
+   ]
+  ],
+  "maxRecordCount": 2000,
+  "count": 7879,
+  "samples": [
+   {
+    "main_address_count": "2",
+    "cov_source_key": null,
+    "objectid": 616800
+   },
+   {
+    "main_address_count": "2",
+    "cov_source_key": null,
+    "objectid": 616801
+   },
+   {
+    "main_address_count": "2",
+    "cov_source_key": null,
+    "objectid": 616802
+   },
+   {
+    "main_address_count": "2",
+    "cov_source_key": null,
+    "objectid": 616803
+   },
+   {
+    "main_address_count": "2",
+    "cov_source_key": null,
+    "objectid": 616804
+   }
+  ]
+ }
+}
