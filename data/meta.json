@@ -1,0 +1,38 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-11-05T08:09:47+00:00",
+ "min_storeys": 5,
+ "count": 2143,
+ "by_stage": {
+  "Issued": 2143
+ },
+ "by_year": {
+  "2017": 146,
+  "2018": 279,
+  "2019": 280,
+  "2020": 276,
+  "2021": 157,
+  "2022": 235,
+  "2023": 256,
+  "2024": 220,
+  "2025": 164,
+  "2026": 130
+ },
+ "by_source": {
+  "City of Vancouver - Issued Building Permits": 2143
+ },
+ "footprints": {
+  "parcel": 1170,
+  "placeholder-large-site": 44,
+  "placeholder": 929
+ },
+ "sources": {
+  "parcels": "ok",
+  "City of Vancouver - Issued Building Permits": "ok (2143)",
+  "view_cones": "ok (24)",
+  "buildings": {
+   "buildings": 124093,
+   "chunks": 190
+  }
+ }
+}
