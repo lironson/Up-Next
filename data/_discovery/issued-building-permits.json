@@ -1,0 +1,207 @@
+{
+ "title": "Issued building permits",
+ "fields": [
+  {
+   "name": "permitnumber",
+   "type": "text",
+   "label": "PermitNumber"
+  },
+  {
+   "name": "permitnumbercreateddate",
+   "type": "date",
+   "label": "PermitNumberCreatedDate"
+  },
+  {
+   "name": "issuedate",
+   "type": "date",
+   "label": "IssueDate"
+  },
+  {
+   "name": "permitelapseddays",
+   "type": "int",
+   "label": "PermitElapsedDays"
+  },
+  {
+   "name": "projectvalue",
+   "type": "double",
+   "label": "ProjectValue"
+  },
+  {
+   "name": "typeofwork",
+   "type": "text",
+   "label": "TypeOfWork"
+  },
+  {
+   "name": "address",
+   "type": "text",
+   "label": "Address"
+  },
+  {
+   "name": "projectdescription",
+   "type": "text",
+   "label": "ProjectDescription"
+  },
+  {
+   "name": "permitcategory",
+   "type": "text",
+   "label": "PermitCategory"
+  },
+  {
+   "name": "applicant",
+   "type": "text",
+   "label": "Applicant"
+  },
+  {
+   "name": "applicantaddress",
+   "type": "text",
+   "label": "ApplicantAddress"
+  },
+  {
+   "name": "propertyuse",
+   "type": "text",
+   "label": "PropertyUse"
+  },
+  {
+   "name": "specificusecategory",
+   "type": "text",
+   "label": "SpecificUseCategory"
+  },
+  {
+   "name": "buildingcontractor",
+   "type": "text",
+   "label": "BuildingContractor"
+  },
+  {
+   "name": "buildingcontractoraddress",
+   "type": "text",
+   "label": "BuildingContractorAddress"
+  },
+  {
+   "name": "issueyear",
+   "type": "text",
+   "label": "IssueYear"
+  },
+  {
+   "name": "geolocalarea",
+   "type": "text",
+   "label": "GeoLocalArea"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "yearmonth",
+   "type": "text",
+   "label": "YearMonth"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "permitnumber": "DB-2018-01779",
+   "permitnumbercreateddate": "2018-04-04",
+   "issuedate": "2018-09-28",
+   "permitelapseddays": 177,
+   "projectvalue": 15000.0,
+   "typeofwork": "Demolition / Deconstruction",
+   "address": "7462 ONTARIO STREET, Vancouver, BC V5X 3B9",
+   "projectdescription": "Low Density Housing - Demolition / Deconstruction - \r\nTo demolish the existing one family dwelling building ($15,000) on this site.\r\nDemo contractor: JVT Excavation and Demolition Ltd (778-893-1643)",
+   "permitcategory": null,
+   "applicant": "Charles  Moorhead",
+   "applicantaddress": "207 West Hastings Street\r\n# 1210\r\nVancouver , BC  V6B1H7",
+   "propertyuse": [
+    "Dwelling Uses"
+   ],
+   "specificusecategory": [
+    "Single Detached House w/Sec Suite"
+   ],
+   "buildingcontractor": "JVT Excavating & Demolition Ltd",
+   "buildingcontractoraddress": "11246 78B Ave  \r\nDelta, BC  V4C 1R6",
+   "issueyear": "2018",
+   "geolocalarea": "Sunset",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1058307, 49.2171058], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "yearmonth": "2018-09",
+   "geo_point_2d": {
+    "lon": -123.1058307,
+    "lat": 49.2171058
+   }
+  },
+  {
+   "permitnumber": "DB-2017-01166",
+   "permitnumbercreateddate": "2017-03-03",
+   "issuedate": "2017-03-24",
+   "permitelapseddays": 21,
+   "projectvalue": 2500.0,
+   "typeofwork": "Addition / Alteration",
+   "address": "3486 SEAFORTH DRIVE, Vancouver, BC V5M 4C5",
+   "projectdescription": "Enquiry Centre - Addition / Alteration - Interior alterations and a change of use from a one family dwelling to a one family dwelling with a secondary suite with one off-street parking space provided having vehicular access off the lane\r\n\r\nOK for SIPS per W.Wong, March 3, 2017.\r\n\r\nUpgrade for suite as per Special Inspection IA-2017-00079\r\n\r\nAddress note:\r\n3486 Seaforth Drive - north portion of 1st...",
+   "permitcategory": "Renovation - Residential - Lower Complexity",
+   "applicant": "HARJIT SOHPAUL",
+   "applicantaddress": "3857 GLENDALE ST\r\nVANCOUVER, BC  V5R1C6",
+   "propertyuse": [
+    "Dwelling Uses"
+   ],
+   "specificusecategory": [
+    "Single Detached House w/Sec Suite"
+   ],
+   "buildingcontractor": "Knaps Construction Ltd",
+   "buildingcontractoraddress": "3857 GLENDALE ST  \r\nVancouver, BC  V5R 1C6",
+   "issueyear": "2017",
+   "geolocalarea": "Renfrew-Collingwood",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.0306064, 49.2544618], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "yearmonth": "2017-03",
+   "geo_point_2d": {
+    "lon": -123.0306064,
+    "lat": 49.2544618
+   }
+  },
+  {
+   "permitnumber": "BP-2018-06006",
+   "permitnumbercreateddate": "2018-11-20",
+   "issuedate": "2019-02-08",
+   "permitelapseddays": 80,
+   "projectvalue": 600000.0,
+   "typeofwork": "Addition / Alteration",
+   "address": "1229 HORNBY STREET, Vancouver, BC V6Z 1W4",
+   "projectdescription": "High Density Housing / Commercial - Addition / Alteration - Interior and exterior work alterations to create a temporary sales office in this existing office space. Fire alarm from 1223 Hornby to be temporarily interconnected with this space.",
+   "permitcategory": null,
+   "applicant": "Glen Stokes DBA: Carscadden Stokes McDonald Architects Inc",
+   "applicantaddress": "310 - 1930 Pandora Street\r\nVancouver, BC  V5L 0C7",
+   "propertyuse": [
+    "Office Uses"
+   ],
+   "specificusecategory": [
+    "Temporary Sales Office"
+   ],
+   "buildingcontractor": null,
+   "buildingcontractoraddress": null,
+   "issueyear": "2019",
+   "geolocalarea": "Downtown",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1294215, 49.2779521], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "yearmonth": "2019-02",
+   "geo_point_2d": {
+    "lon": -123.1294215,
+    "lat": 49.2779521
+   }
+  }
+ ],
+ "total_count": 52572
+}

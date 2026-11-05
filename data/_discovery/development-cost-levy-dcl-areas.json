@@ -1,0 +1,134 @@
+{
+ "title": "Development Cost Levy (DCL) areas",
+ "fields": [
+  {
+   "name": "name",
+   "type": "text",
+   "label": "Name"
+  },
+  {
+   "name": "effective_date",
+   "type": "date",
+   "label": "Effective Date"
+  },
+  {
+   "name": "expiry_date",
+   "type": "text",
+   "label": "Expiry Date"
+  },
+  {
+   "name": "dcl_url",
+   "type": "text",
+   "label": "DCL URL"
+  },
+  {
+   "name": "by_law_number",
+   "type": "int",
+   "label": "By-law Number"
+  },
+  {
+   "name": "dcl_district",
+   "type": "text",
+   "label": "DCL District"
+  },
+  {
+   "name": "commercial_other_rate_sqft",
+   "type": "double",
+   "label": "Commercial Other Rate SqFt"
+  },
+  {
+   "name": "industrial_rate_sqft",
+   "type": "double",
+   "label": "Industrial Rate SqFt"
+  },
+  {
+   "name": "low_density_rate_sqft",
+   "type": "double",
+   "label": "Low Density Rate SqFt"
+  },
+  {
+   "name": "medium_density_rate_sqft",
+   "type": "double",
+   "label": "Medium Density Rate SqFt"
+  },
+  {
+   "name": "mixed_employment_rate_sqft",
+   "type": "double",
+   "label": "Mixed Employment Rate SqFt"
+  },
+  {
+   "name": "high_density_rate_sqft",
+   "type": "double",
+   "label": "High Density Rate SqFt"
+  },
+  {
+   "name": "notes",
+   "type": "text",
+   "label": "Notes"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "name": "False Creek North ODP",
+   "effective_date": "2014-01-27",
+   "expiry_date": null,
+   "dcl_url": "https://guidelines.vancouver.ca/bulletins/bulletin-development-cost-levies.pdf",
+   "by_law_number": 6650,
+   "dcl_district": "Exempt Area",
+   "commercial_other_rate_sqft": null,
+   "industrial_rate_sqft": null,
+   "low_density_rate_sqft": null,
+   "medium_density_rate_sqft": null,
+   "mixed_employment_rate_sqft": null,
+   "high_density_rate_sqft": null,
+   "notes": "Excluded from DCL By-Laws",
+   "geom": null,
+   "geo_point_2d": null
+  },
+  {
+   "name": "South East False Creek DCL",
+   "effective_date": "2007-01-18",
+   "expiry_date": null,
+   "dcl_url": "https://guidelines.vancouver.ca/bulletins/bulletin-development-cost-levies.pdf",
+   "by_law_number": 9418,
+   "dcl_district": "Layered",
+   "commercial_other_rate_sqft": 18.45,
+   "industrial_rate_sqft": 2.95,
+   "low_density_rate_sqft": 18.45,
+   "medium_density_rate_sqft": 18.45,
+   "mixed_employment_rate_sqft": 18.45,
+   "high_density_rate_sqft": 18.45,
+   "notes": "Development is subject to the Vancouver DCL in addition to the South East False Creek DCL and Utilities DCL",
+   "geom": null,
+   "geo_point_2d": null
+  },
+  {
+   "name": "Vancouver Development Cost Levy",
+   "effective_date": "2008-11-25",
+   "expiry_date": null,
+   "dcl_url": "https://guidelines.vancouver.ca/bulletins/bulletin-development-cost-levies.pdf",
+   "by_law_number": 9755,
+   "dcl_district": "City-wide",
+   "commercial_other_rate_sqft": 19.96,
+   "industrial_rate_sqft": 7.99,
+   "low_density_rate_sqft": 4.63,
+   "medium_density_rate_sqft": 9.97,
+   "mixed_employment_rate_sqft": 14.96,
+   "high_density_rate_sqft": 19.96,
+   "notes": "Applied to development across the City",
+   "geom": null,
+   "geo_point_2d": null
+  }
+ ],
+ "total_count": 5
+}

@@ -1,0 +1,107 @@
+{
+ "title": "Property addresses",
+ "fields": [
+  {
+   "name": "civic_number",
+   "type": "text",
+   "label": "CIVIC_NUMBER"
+  },
+  {
+   "name": "std_street",
+   "type": "text",
+   "label": "STD_STREET"
+  },
+  {
+   "name": "p_parcel_id",
+   "type": "text",
+   "label": "P_PARCEL_ID"
+  },
+  {
+   "name": "pcoord",
+   "type": "text",
+   "label": "PCOORD"
+  },
+  {
+   "name": "site_id",
+   "type": "text",
+   "label": "SITE_ID"
+  },
+  {
+   "name": "note",
+   "type": "text",
+   "label": "NOTE"
+  },
+  {
+   "name": "geo_local_area",
+   "type": "text",
+   "label": "Geo Local Area"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "civic_number": "7425",
+   "std_street": "YEW ST",
+   "p_parcel_id": "__FJ2244",
+   "pcoord": "08283050",
+   "site_id": "015985920",
+   "note": null,
+   "geo_local_area": "Kerrisdale",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.16115573649546, 49.215926103171185], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.16115573649546,
+    "lat": 49.215926103171185
+   }
+  },
+  {
+   "civic_number": "7425",
+   "std_street": "YEW ST",
+   "p_parcel_id": "__FJ2246",
+   "pcoord": "08283050",
+   "site_id": "011301708",
+   "note": null,
+   "geo_local_area": "Kerrisdale",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1610427753771, 49.215480265545004], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.1610427753771,
+    "lat": 49.215480265545004
+   }
+  },
+  {
+   "civic_number": "2606",
+   "std_street": "MARINE CRESCENT",
+   "p_parcel_id": "__FJ224A",
+   "pcoord": "79107392",
+   "site_id": "019139381",
+   "note": null,
+   "geo_local_area": "Kerrisdale",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.16424158637754, 49.225989575290654], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.16424158637754,
+    "lat": 49.225989575290654
+   }
+  }
+ ],
+ "total_count": 99728
+}

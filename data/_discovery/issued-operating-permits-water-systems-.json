@@ -1,0 +1,211 @@
+{
+ "title": "Issued operating permits \u2013 water systems",
+ "fields": [
+  {
+   "name": "operating_permit_number",
+   "type": "text",
+   "label": "Operating permit number"
+  },
+  {
+   "name": "address",
+   "type": "text",
+   "label": "Address"
+  },
+  {
+   "name": "mechanical_system_type",
+   "type": "text",
+   "label": "Mechanical system type"
+  },
+  {
+   "name": "current_system_status",
+   "type": "text",
+   "label": "Current system status"
+  },
+  {
+   "name": "permit_renewal_date",
+   "type": "date",
+   "label": "Permit renewal date"
+  },
+  {
+   "name": "voluntary_participant",
+   "type": "text",
+   "label": "Voluntary participant"
+  },
+  {
+   "name": "date_of_most_recent_report",
+   "type": "date",
+   "label": "Date of most recent report"
+  },
+  {
+   "name": "legionella_pneumophila",
+   "type": "text",
+   "label": "Legionella pneumophila"
+  },
+  {
+   "name": "marker_colour",
+   "type": "text",
+   "label": "Marker colour"
+  },
+  {
+   "name": "escherichia_coli",
+   "type": "text",
+   "label": "Escherichia coli"
+  },
+  {
+   "name": "turbidity",
+   "type": "double",
+   "label": "Turbidity"
+  },
+  {
+   "name": "temperature",
+   "type": "double",
+   "label": "Temperature"
+  },
+  {
+   "name": "total_suspended_solids",
+   "type": "text",
+   "label": "Total Suspended Solids"
+  },
+  {
+   "name": "benzene",
+   "type": "text",
+   "label": "Benzene"
+  },
+  {
+   "name": "toluene",
+   "type": "text",
+   "label": "Toluene"
+  },
+  {
+   "name": "ethylbenzene",
+   "type": "text",
+   "label": "Ethylbenzene"
+  },
+  {
+   "name": "xylenes_total",
+   "type": "text",
+   "label": "Xylenes Total"
+  },
+  {
+   "name": "eocp_certification_number",
+   "type": "text",
+   "label": "EOCP certification number"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_local_area",
+   "type": "text",
+   "label": "Geo Local Area"
+  },
+  {
+   "name": "water_quality_reports_link",
+   "type": "text",
+   "label": "Water quality reports link"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "operating_permit_number": "OP-2019-00004",
+   "address": "588 BROUGHTON STREET, Vancouver, BC V6G 3E3",
+   "mechanical_system_type": "Building Water Treatment System",
+   "current_system_status": "Active",
+   "permit_renewal_date": "2027-12-02",
+   "voluntary_participant": "N",
+   "date_of_most_recent_report": null,
+   "legionella_pneumophila": null,
+   "marker_colour": "blue",
+   "escherichia_coli": null,
+   "turbidity": null,
+   "temperature": null,
+   "total_suspended_solids": null,
+   "benzene": null,
+   "toluene": null,
+   "ethylbenzene": null,
+   "xylenes_total": null,
+   "eocp_certification_number": "1001379",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1263013, 49.2894972], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_local_area": null,
+   "water_quality_reports_link": "https://opendata.vancouver.ca/explore/dataset/operating-permits-water-systems-water-quality-reports/table/?q=OP-2019-00004",
+   "geo_point_2d": {
+    "lon": -123.1263013,
+    "lat": 49.2894972
+   }
+  },
+  {
+   "operating_permit_number": "OP-2019-00017",
+   "address": "3628 RAE AVENUE, Vancouver, BC V5R 2P5",
+   "mechanical_system_type": "Building Water Treatment System",
+   "current_system_status": "Active",
+   "permit_renewal_date": "2026-12-04",
+   "voluntary_participant": "N",
+   "date_of_most_recent_report": "2020-12-04",
+   "legionella_pneumophila": null,
+   "marker_colour": "blue",
+   "escherichia_coli": null,
+   "turbidity": null,
+   "temperature": null,
+   "total_suspended_solids": null,
+   "benzene": null,
+   "toluene": null,
+   "ethylbenzene": null,
+   "xylenes_total": null,
+   "eocp_certification_number": "1001356",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.0252783, 49.2364429], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_local_area": null,
+   "water_quality_reports_link": "https://opendata.vancouver.ca/explore/dataset/operating-permits-water-systems-water-quality-reports/table/?q=OP-2019-00017",
+   "geo_point_2d": {
+    "lon": -123.0252783,
+    "lat": 49.2364429
+   }
+  },
+  {
+   "operating_permit_number": "OP-2019-00022",
+   "address": "5603 BALSAM STREET, Vancouver, BC V6M 4B5",
+   "mechanical_system_type": "Building Water Treatment System",
+   "current_system_status": "Active",
+   "permit_renewal_date": "2026-12-09",
+   "voluntary_participant": "N",
+   "date_of_most_recent_report": null,
+   "legionella_pneumophila": null,
+   "marker_colour": "blue",
+   "escherichia_coli": null,
+   "turbidity": null,
+   "temperature": null,
+   "total_suspended_solids": null,
+   "benzene": null,
+   "toluene": null,
+   "ethylbenzene": null,
+   "xylenes_total": null,
+   "eocp_certification_number": "1001380",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1616998, 49.2357599], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_local_area": null,
+   "water_quality_reports_link": "https://opendata.vancouver.ca/explore/dataset/operating-permits-water-systems-water-quality-reports/table/?q=OP-2019-00022",
+   "geo_point_2d": {
+    "lon": -123.1616998,
+    "lat": 49.2357599
+   }
+  }
+ ],
+ "total_count": 1247
+}

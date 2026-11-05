@@ -1,0 +1,91 @@
+{
+ "title": "Zoning districts and labels",
+ "fields": [
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "object_id",
+   "type": "text",
+   "label": "Object ID"
+  },
+  {
+   "name": "zoning_classification",
+   "type": "text",
+   "label": "Zoning Classification"
+  },
+  {
+   "name": "zoning_category",
+   "type": "text",
+   "label": "Zoning Category"
+  },
+  {
+   "name": "zoning_district",
+   "type": "text",
+   "label": "Zoning District"
+  },
+  {
+   "name": "cd_1_number",
+   "type": "text",
+   "label": "CD-1 Number"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.02813453927241, 49.23252042204165], [-123.02757886623034, 49.23252294607429], [-123.02758036215106, 49.23249593297381], [-123.0275802249902, 49."
+   },
+   "object_id": "495374",
+   "zoning_classification": "Comprehensive Development",
+   "zoning_category": "CD",
+   "zoning_district": "CD-1 (302)",
+   "cd_1_number": "302",
+   "geo_point_2d": {
+    "lon": -123.02786158710653,
+    "lat": 49.23231027641015
+   }
+  },
+  {
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.12104021734665, 49.257451663954946], [-123.12104846351363, 49.25745183522002], [-123.1210606947728, 49.25711584297073], [-123.12106414312466, 49"
+   },
+   "object_id": "495375",
+   "zoning_classification": "Comprehensive Development",
+   "zoning_category": "CD",
+   "zoning_district": "CD-1 (303)",
+   "cd_1_number": "303",
+   "geo_point_2d": {
+    "lon": -123.12153381997425,
+    "lat": 49.25737606366172
+   }
+  },
+  {
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.1506173505957, 49.26144462099711], [-123.15199864591204, 49.261466615208334], [-123.1520394969268, 49.26149468049096], [-123.1523535621649, 49.2"
+   },
+   "object_id": "495378",
+   "zoning_classification": "Comprehensive Development",
+   "zoning_category": "CD",
+   "zoning_district": "CD-1 (306)",
+   "cd_1_number": "306",
+   "geo_point_2d": {
+    "lon": -123.15146910469574,
+    "lat": 49.26169066209512
+   }
+  }
+ ],
+ "total_count": 1621
+}

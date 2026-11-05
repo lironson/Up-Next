@@ -1,0 +1,131 @@
+{
+ "title": "Mountain View Cemetery burial index",
+ "fields": [
+  {
+   "name": "personid",
+   "type": "text",
+   "label": "PersonId"
+  },
+  {
+   "name": "lastname",
+   "type": "text",
+   "label": "LastName"
+  },
+  {
+   "name": "firstname",
+   "type": "text",
+   "label": "FirstName"
+  },
+  {
+   "name": "maidenname",
+   "type": "text",
+   "label": "MaidenName"
+  },
+  {
+   "name": "alias",
+   "type": "text",
+   "label": "Alias"
+  },
+  {
+   "name": "dateofdeath",
+   "type": "date",
+   "label": "DateOfDeath"
+  },
+  {
+   "name": "dateinterred",
+   "type": "date",
+   "label": "DateInterred"
+  },
+  {
+   "name": "referencenumberinter",
+   "type": "text",
+   "label": "ReferenceNumberInter"
+  },
+  {
+   "name": "sitefullname",
+   "type": "text",
+   "label": "SiteFullName"
+  },
+  {
+   "name": "geo_local_area",
+   "type": "text",
+   "label": "Geo Local Area"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "personid": "25cd82ea-0719-4232-9a62-52b761b02826",
+   "lastname": "PODOLSKAYA",
+   "firstname": "Valya",
+   "maidenname": null,
+   "alias": null,
+   "dateofdeath": "1992-04-01",
+   "dateinterred": "1992-04-03",
+   "referencenumberinter": "38815",
+   "sitefullname": "OLD-1-06-002-0008",
+   "geo_local_area": "Riley Park",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.09104919433594, 49.23748016357422], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.09104919433594,
+    "lat": 49.23748016357422
+   }
+  },
+  {
+   "personid": "656399ac-8e61-4ad0-b52b-b3c4552d06ff",
+   "lastname": "PODOLSKI",
+   "firstname": "William",
+   "maidenname": null,
+   "alias": null,
+   "dateofdeath": "1944-08-08",
+   "dateinterred": "1944-08-14",
+   "referencenumberinter": "01137C",
+   "sitefullname": "HORNE2-*-02-033-0012 (244)",
+   "geo_local_area": "Riley Park",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.09387969970703, 49.241268157958984], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.09387969970703,
+    "lat": 49.241268157958984
+   }
+  },
+  {
+   "personid": "c98155f6-1b48-4728-b8de-1c7ffdee896a",
+   "lastname": "PODOROUSKY",
+   "firstname": "Demitri",
+   "maidenname": null,
+   "alias": null,
+   "dateofdeath": "1976-07-13",
+   "dateinterred": "1976-07-19",
+   "referencenumberinter": "I-00070997",
+   "sitefullname": "JONES-*-27-*-1319",
+   "geo_local_area": "Riley Park",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.09355926513672, 49.23503875732422], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.09355926513672,
+    "lat": 49.23503875732422
+   }
+  }
+ ],
+ "total_count": 150139
+}

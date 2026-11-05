@@ -1,0 +1,3631 @@
+{
+ "datasets": {
+  "2019-2022-capital-plan-and-2021-budget-and-funding": {
+   "fields": [
+    "service_category_1",
+    "category",
+    "subcategory",
+    "capital_plan_program_project",
+    "capital_plan_after_recalibration",
+    "changes_approved_to_date",
+    "2021_changes",
+    "2019_2022_capital_plan_adjusted_current",
+    "budgets_approved_to_date",
+    "2021_budget",
+    "city_contributions_capital_from_revenue",
+    "city_contributions_cff",
+    "city_contributions_plebiscite_authority",
+    "city_contributions_tax_fee_funded_reserves",
+    "city_contributions_utility_borrowing",
+    "city_contributions_utility_pay_as_you_go",
+    "development_contributions_connections_services_conditions",
+    "development_contributions_devt_contrib_reserves",
+    "total_partner_contributions",
+    "funding_for_remainder_of_capital_plan_city_led",
+    "developer_led_projects_in_kind"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2021-02-03T18:43:31+00:00",
+   "records_count": 238,
+   "title": "2019-2022 Capital Plan and 2021 Budget and funding"
+  },
+  "2021-new-multi-year-capital-budget-requests-and-2021-capital-expenditure-budget": {
+   "fields": [
+    "service_category_1",
+    "category",
+    "subcategory",
+    "project_program_name",
+    "multi_year_capital_budgets_previously_approved",
+    "multi_year_capital_budgets_2021",
+    "multi_year_capital_budgets_total_open_project_budget",
+    "annual_capital_expenditure_budgets_2021",
+    "annual_capital_expenditure_budgets_2022_forecast",
+    "annual_capital_expenditure_budgets_2023_forecast",
+    "annual_capital_expenditure_budgets_2024_forecast",
+    "annual_capital_expenditure_budgets_2025_forecast"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2021-02-03T18:00:00+00:00",
+   "records_count": 496,
+   "title": "2021 new Multi-Year Capital Budget requests and 2021 Capital Expenditure Budget"
+  },
+  "2022-new-multi-year-capital-budget-requests-and-2022-capital-expenditure-budget": {
+   "fields": [
+    "service_category_1",
+    "category",
+    "subcategory",
+    "project_program_name",
+    "multi_year_capital_budgets_previously_approved",
+    "multi_year_capital_budgets_2022",
+    "multi_year_capital_budgets_total_open_project_budget",
+    "annual_capital_expenditure_budgets_2022",
+    "annual_capital_expenditure_2023_forecast",
+    "annual_capital_expenditure_2024_forecast",
+    "annual_capital_expenditure_2025_forecast",
+    "annual_capital_expenditure_2026_forecast"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2024-06-11T13:00:21+00:00",
+   "records_count": 548,
+   "title": "2022 new Multi-Year Capital Budget requests and 2022 Capital Expenditure Budget"
+  },
+  "2023-2026-capital-plan-and-2023-capital-budget-with-proposed-four-year-capital-p": {
+   "fields": [
+    "service_category_1",
+    "service_category_2",
+    "service_category_3",
+    "project_program_name",
+    "2023_2026_original_capital_plan",
+    "changes_to_2023_2026_capital_plan_from_2023_capital_budget",
+    "2023_2026_revised_capital_plan",
+    "revised_2023_2026_capital_plan_funding_city_contributions_city_led",
+    "revised_2023_2026_capital_plan_funding_development_contributions_city_led",
+    "revised_2023_2026_capital_plan_funding_partner_contributions_city_led",
+    "revised_2023_2026_capital_plan_funding_development_contributions_developer_led_in_kind",
+    "2023_2026_capital_plan_city_led_allocations_2023_budget",
+    "2023_2026_capital_plan_city_led_allocations_2024_forecast",
+    "2023_2026_capital_plan_city_led_allocations_2025_forecast",
+    "2023_2026_capital_plan_city_led_allocations_2026_forecast",
+    "multi_year_capital_project_budgets_previously_approved_from_prior_capital_plans",
+    "multi_year_capital_project_budgets_total_open_project_budget_in_2023"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2023-02-22T13:00:54+00:00",
+   "records_count": 336,
+   "title": "2023-2026 Capital Plan and 2023 Capital Budget with proposed four-year Capital Plan allocations"
+  },
+  "2023-2026-capital-plan-and-2024-capital-budget-with-proposed-four-year-capital-0": {
+   "fields": [
+    "service_category_1",
+    "service_category_2",
+    "service_category_3",
+    "project_program_name",
+    "2023_2026_original_capital_plan",
+    "changes_to_2023_2026_capital_plan_approved_to_date",
+    "changes_to_2023_2026_capital_plan_from_2024_capital_budget",
+    "2023_2026_revised_capital_plan",
+    "revised_2023_2026_capital_plan_funding_development_contributions_developer_led_in_kind",
+    "revised_2023_2026_capital_plan_funding_city_led",
+    "2023_2026_capital_plan_city_led_allocations_2023_approved_budget",
+    "2023_2026_capital_plan_city_led_allocations_2024_budget",
+    "2023_2026_capital_plan_city_led_allocations_2025_forecast",
+    "2023_2026_capital_plan_city_led_allocations_2026_forecast",
+    "multi_year_capital_project_budgets_previously_approved_from_prior_capital_plans",
+    "spending_forecast_of_total_open_project_budgets_till_year_end_2023",
+    "available_project_budget_in_2024"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2024-04-17T17:00:42+00:00",
+   "records_count": 349,
+   "title": "2023-2026 Capital Plan and 2024 Capital Budget with proposed four-year Capital Plan allocations"
+  },
+  "2023-2026-capital-plan-and-2025-capital-budget-with-proposed-four-year-capital-0": {
+   "fields": [
+    "service_category_1",
+    "service_category_2",
+    "service_category_3",
+    "project_program_name",
+    "2023_2026_original_capital_plan",
+    "changes_to_2023_2026_capital_plan_approved_to_date",
+    "changes_to_2023_2026_capital_plan_from_2025_capital_budget",
+    "2023_2026_revised_capital_plan",
+    "revised_2023_2026_capital_plan_funding_development_contributions_developer_led_in_kind",
+    "revised_2023_2026_capital_plan_funding_city_led",
+    "2023_2026_capital_plan_city_led_allocations_2023_approved_budget",
+    "2023_2026_capital_plan_city_led_allocations_2024_approved_budget",
+    "2023_2026_capital_plan_city_led_allocations_2025_budget",
+    "2023_2026_capital_plan_city_led_allocations_2026_forecast",
+    "multi_year_capital_project_budgets_previously_approved_from_prior_capital_plans",
+    "spending_forecast_of_total_open_project_budgets_till_year_end_2024",
+    "available_project_budget_in_2025"
+   ],
+   "keyword": [
+    "budget",
+    "council"
+   ],
+   "modified": "2024-11-14T20:05:07+00:00",
+   "records_count": 362,
+   "title": "2023-2026 Capital Plan and 2025 Capital Budget with proposed four-year Capital Plan allocations"
+  },
+  "2023-2026-capital-plan-and-2026-capital-budget-with-proposed-four-year-capital-plan-allocations": {
+   "fields": [
+    "service_category_1",
+    "service_category_2",
+    "service_category_3",
+    "project_program_name",
+    "2023_2026_original_capital_plan",
+    "changes_to_2023_2026_capital_plan_approved_to_date",
+    "changes_to_2023_2026_capital_plan_from_2026_capital_budget",
+    "2023_2026_revised_capital_plan",
+    "revised_2023_2026_capital_plan_funding_development_contributions_developer_led_in_kind",
+    "revised_2023_2026_capital_plan_funding_city_led",
+    "2023_2026_capital_plan_city_led_allocations_2023_approved_budget",
+    "2023_2026_capital_plan_city_led_allocations_2024_approved_budget",
+    "2023_2026_capital_plan_city_led_allocations_2025_approved_budget",
+    "2023_2026_capital_plan_city_led_allocations_2026_budget",
+    "remainder_of_2023_2026_capital_plan",
+    "multi_year_capital_project_budgets_previously_approved",
+    "spending_forecast_of_total_open_project_budgets_till_year_end_2025",
+    "available_project_budget_in_2026"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2026-04-14T19:31:09+00:00",
+   "records_count": 395,
+   "title": "2023-2026 Capital Plan and 2026 Capital Budget with proposed four-year Capital Plan allocations"
+  },
+  "2023-multi-year-capital-project-budget-requests-and-capital-expenditure-budget": {
+   "fields": [
+    "service_category_1",
+    "service_category_2",
+    "service_category_3",
+    "project_program_name",
+    "multi_year_capital_project_budgets_previously_approved_from_prior_capital_plans",
+    "2023_new_multi_year_capital_project_budgets_requests",
+    "2023_new_multi_year_capital_project_budgets_requests_pay_as_you_go",
+    "2023_new_multi_year_capital_project_budgets_requests_borrowing_authority_debt",
+    "2023_new_multi_year_capital_project_budgets_requests_tax_fee_funded_reserves",
+    "2023_new_multi_year_capital_project_budgets_requests_reserves_cac_dcl_dbz_etc",
+    "2023_new_multi_year_capital_project_budgets_requests_connections_servicing_conditions",
+    "2023_new_multi_year_capital_project_budgets_requests_partner_contributions",
+    "multi_year_capital_project_budgets_total_open_project_budget_in_2023",
+    "spending_forecast_of_total_open_project_budgets_till_year_end_2022",
+    "available_project_budget_in_2023",
+    "annual_capital_expenditure_2023_capital_expenditure_budget",
+    "annual_capital_expenditure_2024_forecast",
+    "annual_capital_expenditure_2025_forecast",
+    "annual_capital_expenditure_2026_forecast",
+    "annual_capital_expenditure_2027_forecast"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2023-02-22T17:47:18+00:00",
+   "records_count": 777,
+   "title": "2023 Multi-Year Capital Project Budget requests and Capital Expenditure Budget"
+  },
+  "2024-multi-year-capital-project-budget-requests-and-capital-expenditure-budget": {
+   "fields": [
+    "service_category_1",
+    "service_category_2",
+    "service_category_3",
+    "project_program_name",
+    "multi_year_capital_project_budgets_previously_approved_from_prior_capital_plans",
+    "2024_new_multi_year_capital_project_budgets_requests",
+    "2024_new_multi_year_capital_project_budgets_requests_pay_as_you_go",
+    "2024_new_multi_year_capital_project_budgets_requests_borrowing_authority_debt",
+    "2024_new_multi_year_capital_project_budgets_requests_tax_fee_funded_reserves",
+    "2024_new_multi_year_capital_project_budgets_requests_reserves_cac_dcl_dbz_etc",
+    "2024_new_multi_year_capital_project_budgets_requests_connections_servicing_conditions",
+    "2024_new_multi_year_capital_project_budgets_requests_partner_contributions",
+    "multi_year_capital_project_budgets_total_open_project_budget_in_2024",
+    "spending_forecast_of_total_open_project_budgets_till_year_end_2023",
+    "available_project_budget_in_2024",
+    "annual_capital_expenditure_2024_capital_expenditure_budget",
+    "annual_capital_expenditure_2025_forecast",
+    "annual_capital_expenditure_2026_forecast",
+    "annual_capital_expenditure_2027_forecast",
+    "annual_capital_expenditure_2028_forecast"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2024-04-17T16:49:39+00:00",
+   "records_count": 592,
+   "title": "2024 Multi-Year Capital Project Budget requests and Capital Expenditure Budget"
+  },
+  "2025-multi-year-capital-project-budget-requests-and-capital-expenditure-budget": {
+   "fields": [
+    "service_category_1",
+    "service_category_2",
+    "service_category_3",
+    "project_program_name",
+    "multi_year_capital_project_budgets_previously_approved_from_prior_capital_plans",
+    "2025_new_multi_year_capital_project_budgets_requests",
+    "2025_new_multi_year_capital_project_budgets_requests_pay_as_you_go",
+    "2025_new_multi_year_capital_project_budgets_requests_borrowing_authority_debt",
+    "2025_new_multi_year_capital_project_budgets_requests_tax_fee_funded_reserves",
+    "2025_new_multi_year_capital_project_budgets_requests_reserves_cac_dcl_dbz_etc",
+    "2025_new_multi_year_capital_project_budgets_requests_connections_servicing_conditions",
+    "2025_new_multi_year_capital_project_budgets_requests_partner_contributions",
+    "multi_year_capital_project_budgets_total_open_project_budget_in_2025",
+    "spending_forecast_of_total_open_project_budgets_till_year_end_2024",
+    "available_project_budget_in_2025",
+    "annual_capital_expenditure_2025_capital_expenditure_budget",
+    "annual_capital_expenditure_2026_forecast",
+    "annual_capital_expenditure_2027_forecast",
+    "annual_capital_expenditure_2028_forecast",
+    "annual_capital_expenditure_2029_forecast"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2024-12-12T08:05:24+00:00",
+   "records_count": 740,
+   "title": "2025 Multi-Year Capital Project Budget requests and Capital Expenditure Budget"
+  },
+  "2026-multi-year-capital-project-budget-requests-and-capital-expenditure-budget": {
+   "fields": [
+    "service_category_1",
+    "service_category_2",
+    "service_category_3",
+    "project_program_name",
+    "multi_year_capital_project_budgets_previously_approved_from_prior_capital_plans",
+    "2026_new_multi_year_capital_project_budgets_requests",
+    "2026_new_multi_year_capital_project_budgets_requests_pay_as_you_go",
+    "2026_new_multi_year_capital_project_budgets_requests_borrowing_authority_debt",
+    "2026_new_multi_year_capital_project_budgets_requests_tax_fee_funded_reserves",
+    "2026_new_multi_year_capital_project_budgets_requests_reserves_cac_dcl_dbz_etc",
+    "2026_new_multi_year_capital_project_budgets_requests_connections_servicing_conditions",
+    "2026_new_multi_year_capital_project_budgets_requests_partner_contributions",
+    "multi_year_capital_project_budgets_total_open_project_budget_in_2026",
+    "spending_forecast_of_total_open_project_budgets_till_year_end_2025",
+    "available_project_budget_in_2026",
+    "annual_capital_expenditure_2026_capital_expenditure_budget",
+    "annual_capital_expenditure_2027_forecast",
+    "annual_capital_expenditure_2028_forecast",
+    "annual_capital_expenditure_2029_forecast",
+    "annual_capital_expenditure_2030_forecast"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2026-04-14T18:45:39+00:00",
+   "records_count": 630,
+   "title": "2026 Multi-Year Capital Project Budget requests and Capital Expenditure Budget"
+  },
+  "3-1-1-contact-centre-metrics": {
+   "fields": [
+    "date",
+    "callsoffered",
+    "callshandled",
+    "callsabandoned",
+    "averagespeedofanswer",
+    "servicelevel"
+   ],
+   "keyword": null,
+   "modified": "2026-11-01T14:49:21+00:00",
+   "records_count": 6345,
+   "title": "3-1-1 contact centre metrics"
+  },
+  "3-1-1-inquiry-volume": {
+   "fields": [
+    "department",
+    "type",
+    "year_month",
+    "channel",
+    "number_of_records"
+   ],
+   "keyword": null,
+   "modified": "2026-11-01T14:50:35+00:00",
+   "records_count": 66226,
+   "title": "3-1-1 inquiry volume"
+  },
+  "3-1-1-service-requests": {
+   "fields": [
+    "department",
+    "service_request_type",
+    "status",
+    "closure_reason",
+    "service_request_open_timestamp",
+    "service_request_close_date",
+    "last_modified_timestamp",
+    "address",
+    "local_area",
+    "channel",
+    "latitude",
+    "longitude",
+    "geom"
+   ],
+   "keyword": null,
+   "modified": "2026-11-03T15:03:02+00:00",
+   "records_count": 1096497,
+   "title": "3-1-1 service requests"
+  },
+  "3-1-1-service-requests-2009-2021": {
+   "fields": [
+    "department",
+    "service_request_type",
+    "status",
+    "closure_reason",
+    "service_request_open_timestamp",
+    "service_request_close_date",
+    "last_modified_timestamp",
+    "address",
+    "local_area",
+    "channel",
+    "latitude",
+    "longitude",
+    "geom"
+   ],
+   "keyword": null,
+   "modified": "2024-04-24T20:08:41+00:00",
+   "records_count": 2083091,
+   "title": "3-1-1 service requests 2009-2021"
+  },
+  "abandoned-water-mains": {
+   "fields": [
+    "diameter_mm",
+    "installation_date",
+    "material",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "water"
+   ],
+   "modified": "2026-11-02T13:34:38+00:00",
+   "records_count": 13155,
+   "title": "Abandoned water mains"
+  },
+  "animal-control-inventory-deceased-animal": {
+   "fields": [
+    "deadanimalid",
+    "deadanimaldate",
+    "catother",
+    "dogs",
+    "description",
+    "amountothers",
+    "sex",
+    "amountdog",
+    "receipt",
+    "aco",
+    "paidremarks",
+    "bag"
+   ],
+   "keyword": [
+    "animal control"
+   ],
+   "modified": "2026-11-03T14:46:49+00:00",
+   "records_count": 8731,
+   "title": "Animal control inventory - deceased animal"
+  },
+  "animal-control-inventory-lost-and-found": {
+   "fields": [
+    "date",
+    "breed",
+    "sex",
+    "color",
+    "name",
+    "state"
+   ],
+   "keyword": [
+    "animal control"
+   ],
+   "modified": "2026-11-04T14:47:12+00:00",
+   "records_count": 18485,
+   "title": "Animal control inventory - lost and found"
+  },
+  "animal-control-inventory-register": {
+   "fields": [
+    "animalid",
+    "breed",
+    "shotsdate",
+    "sex",
+    "receiptnumber",
+    "dateimpounded",
+    "pitnumber",
+    "name",
+    "kennelnumber",
+    "dispositiondate",
+    "color",
+    "code",
+    "approxweight",
+    "age_category",
+    "source",
+    "status",
+    "aco"
+   ],
+   "keyword": [
+    "animal control"
+   ],
+   "modified": "2026-11-04T14:47:49+00:00",
+   "records_count": 26704,
+   "title": "Animal control inventory - register"
+  },
+  "anonymous-ballot-marking": {
+   "fields": [
+    "election",
+    "link_to_csv_file",
+    "link_to_xlsx_file",
+    "link_to_attributes_page"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2026-10-01T18:13:39+00:00",
+   "records_count": 4,
+   "title": "Anonymous ballot marking"
+  },
+  "awarded-contracts": {
+   "fields": [
+    "bid_number",
+    "bid_type",
+    "bid_description",
+    "award_date",
+    "vendor_name",
+    "bid_amount",
+    "awarded"
+   ],
+   "keyword": null,
+   "modified": "2026-07-23T20:17:08+00:00",
+   "records_count": 6414,
+   "title": "Awarded contracts"
+  },
+  "bike-lane-statistics-for-burrard-bridge-2009-2010": {
+   "fields": [
+    "date",
+    "comments",
+    "northbound_pedestrians",
+    "southbound_pedestrians",
+    "total_pedestrians",
+    "northbound_bicycles",
+    "southbound_bicycles",
+    "total_bicycles",
+    "northbound_vehicles",
+    "southbound_vehicles",
+    "total_vehicles"
+   ],
+   "keyword": [
+    "bicycle"
+   ],
+   "modified": "2011-03-02T08:00:00+00:00",
+   "records_count": 579,
+   "title": "Bike lane statistics for Burrard Bridge 2009-2010"
+  },
+  "bike-lane-statistics-for-hornby-dunsmuir-and-burrard-2009-2012": {
+   "fields": [
+    "date",
+    "comments",
+    "burrard_bridge",
+    "hornby_street",
+    "dunsmuir_street",
+    "dunsmuir_viaduct"
+   ],
+   "keyword": [
+    "bicycle"
+   ],
+   "modified": "2012-04-23T07:00:00+00:00",
+   "records_count": 1005,
+   "title": "Bike lane statistics for Hornby, Dunsmuir and Burrard 2009-2012"
+  },
+  "bike-racks": {
+   "fields": [
+    "street_number",
+    "street_name",
+    "street_side",
+    "skytrain_station_name",
+    "bia",
+    "number_of_racks",
+    "year_installed"
+   ],
+   "keyword": [
+    "bicycle"
+   ],
+   "modified": "2021-04-30T10:37:23+00:00",
+   "records_count": 1731,
+   "title": "Bike racks"
+  },
+  "bikeways": {
+   "fields": [
+    "object_id",
+    "bike_route_name",
+    "street_name",
+    "bikeway_type",
+    "subtype",
+    "status",
+    "street_segment_type",
+    "overall_direction",
+    "bikeway_direction",
+    "vehicle_direction",
+    "speed_limit",
+    "surface_type",
+    "aaa_network",
+    "aaa_segment",
+    "w_n_bound_type",
+    "e_s_bound_type",
+    "snow_removal",
+    "construction_note",
+    "upgrade_year",
+    "notes",
+    "year_of_construction",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "bicycle",
+    "traffic"
+   ],
+   "modified": "2026-11-02T13:30:23+00:00",
+   "records_count": 3774,
+   "title": "Bikeways"
+  },
+  "block-numbers": {
+   "fields": [
+    "label",
+    "geo_local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2024-05-06T12:24:05+00:00",
+   "records_count": 5806,
+   "title": "Block numbers"
+  },
+  "block-outlines": {
+   "fields": [
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-05-23T13:30:34+00:00",
+   "records_count": 4633,
+   "title": "Block outlines"
+  },
+  "building-footprints-1999": {
+   "fields": [
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "building"
+   ],
+   "modified": "2019-05-07T15:45:41+00:00",
+   "records_count": 3259,
+   "title": "Building footprints 1999"
+  },
+  "building-footprints-2009": {
+   "fields": [
+    "id",
+    "orient8",
+    "bldgid",
+    "topelev_m",
+    "med_slope",
+    "baseelev_m",
+    "hgt_agl",
+    "rooftype",
+    "area_m2",
+    "avght_m",
+    "minht_m",
+    "maxht_m",
+    "base_m",
+    "len",
+    "wid",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "building"
+   ],
+   "modified": "2019-05-07T15:46:05+00:00",
+   "records_count": 124181,
+   "title": "Building footprints 2009"
+  },
+  "building-footprints-2015": {
+   "fields": [
+    "object_id",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "building"
+   ],
+   "modified": "2022-06-09T12:02:05+00:00",
+   "records_count": 154124,
+   "title": "Building Footprints 2015"
+  },
+  "building-lines": {
+   "fields": [
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-08-31T13:46:34+00:00",
+   "records_count": 1640,
+   "title": "Building lines"
+  },
+  "business-improvement-areas-bia": {
+   "fields": [
+    "mapid",
+    "name",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-05-23T13:30:18+00:00",
+   "records_count": 24,
+   "title": "Business improvement areas (BIA)"
+  },
+  "business-licences": {
+   "fields": [
+    "folderyear",
+    "licencersn",
+    "licencenumber",
+    "licencerevisionnumber",
+    "businessname",
+    "businesstradename",
+    "status",
+    "issueddate",
+    "expireddate",
+    "businesstype",
+    "businesssubtype",
+    "unit",
+    "unittype",
+    "house",
+    "street",
+    "city",
+    "province",
+    "country",
+    "postalcode",
+    "localarea",
+    "numberofemployees",
+    "feepaid",
+    "extractdate",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "licence"
+   ],
+   "modified": "2026-11-04T14:48:49+00:00",
+   "records_count": 207159,
+   "title": "Business licences"
+  },
+  "business-licences-1997-to-2012": {
+   "fields": [
+    "folderyear",
+    "licencersn",
+    "licencenumber",
+    "licencerevisionnumber",
+    "businessname",
+    "businesstradename",
+    "status",
+    "issueddate",
+    "expireddate",
+    "businesstype",
+    "businesssubtype",
+    "unit",
+    "unittype",
+    "house",
+    "street",
+    "city",
+    "province",
+    "country",
+    "postalcode",
+    "localarea",
+    "numberofemployees",
+    "feepaid",
+    "extractdate",
+    "geom"
+   ],
+   "keyword": [
+    "licence"
+   ],
+   "modified": "2018-04-12T12:05:46+00:00",
+   "records_count": 958899,
+   "title": "Business licences 1997 to 2012"
+  },
+  "business-licences-2013-to-2024": {
+   "fields": [
+    "folderyear",
+    "licencersn",
+    "licencenumber",
+    "licencerevisionnumber",
+    "businessname",
+    "businesstradename",
+    "status",
+    "issueddate",
+    "expireddate",
+    "businesstype",
+    "businesssubtype",
+    "unit",
+    "unittype",
+    "house",
+    "street",
+    "city",
+    "province",
+    "country",
+    "postalcode",
+    "localarea",
+    "numberofemployees",
+    "feepaid",
+    "extractdate",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "licence"
+   ],
+   "modified": "2024-05-04T17:29:08+00:00",
+   "records_count": 782330,
+   "title": "Business licences 2013 to 2024"
+  },
+  "census-local-area-profiles-2001": {
+   "fields": [],
+   "keyword": [
+    "census"
+   ],
+   "modified": "2013-03-25T23:00:00+00:00",
+   "records_count": 0,
+   "title": "Census local area profiles 2001"
+  },
+  "census-local-area-profiles-2006": {
+   "fields": [],
+   "keyword": [
+    "census"
+   ],
+   "modified": "2013-03-25T23:00:00+00:00",
+   "records_count": 0,
+   "title": "Census local area profiles 2006"
+  },
+  "census-local-area-profiles-2011": {
+   "fields": [],
+   "keyword": [
+    "census"
+   ],
+   "modified": "2013-11-13T18:00:00+00:00",
+   "records_count": 0,
+   "title": "Census local area profiles 2011"
+  },
+  "census-local-area-profiles-2016": {
+   "fields": [],
+   "keyword": [
+    "census"
+   ],
+   "modified": "2018-04-10T22:00:00+00:00",
+   "records_count": 0,
+   "title": "Census local area profiles 2016"
+  },
+  "city-boundary": {
+   "fields": [
+    "name",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2021-09-27T10:33:37+00:00",
+   "records_count": 1,
+   "title": "City boundary"
+  },
+  "city-owned-properties": {
+   "fields": [
+    "building_no",
+    "sap_address",
+    "geom",
+    "geo_local_area",
+    "land_coord",
+    "type",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-11-02T13:30:38+00:00",
+   "records_count": 4452,
+   "title": "City-owned properties"
+  },
+  "city-project-package-street": {
+   "fields": [
+    "expected_completion_date",
+    "location",
+    "project_title",
+    "url_link",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "city project"
+   ],
+   "modified": "2026-09-21T13:30:41+00:00",
+   "records_count": 290,
+   "title": "City project package - Street"
+  },
+  "city-projects-package-site": {
+   "fields": [
+    "geom",
+    "location",
+    "project_title",
+    "url_link",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "city project"
+   ],
+   "modified": "2026-05-23T13:30:36+00:00",
+   "records_count": 936,
+   "title": "City projects package - Site"
+  },
+  "community-centres": {
+   "fields": [
+    "name",
+    "address",
+    "urllink",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2020-11-19T11:36:16+00:00",
+   "records_count": 27,
+   "title": "Community centres"
+  },
+  "community-food-markets-and-farmers-markets": {
+   "fields": [
+    "year",
+    "markettype",
+    "marketname_location_host",
+    "marketoperator",
+    "streetnumber",
+    "streetdirection",
+    "streetname",
+    "streettype",
+    "mergedaddress",
+    "marketdirection",
+    "website",
+    "day",
+    "open",
+    "close",
+    "months",
+    "numberofvendors",
+    "offerings"
+   ],
+   "keyword": null,
+   "modified": "2019-05-24T20:04:50+00:00",
+   "records_count": 91,
+   "title": "Community food markets and farmers markets"
+  },
+  "community-gardens-and-food-trees": {
+   "fields": [
+    "mapid",
+    "year_created",
+    "name",
+    "street_number",
+    "street_direction",
+    "street_name",
+    "street_type",
+    "merged_address",
+    "number_of_plots",
+    "number_of_food_trees",
+    "notes",
+    "food_tree_varieties",
+    "other_food_assets",
+    "jurisdiction",
+    "steward_or_managing_organization",
+    "public_e_mail",
+    "website",
+    "geo_local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-06-03T17:39:43+00:00",
+   "records_count": 170,
+   "title": "Community gardens and food trees"
+  },
+  "council-budget-and-expenses": {
+   "fields": [
+    "year",
+    "file_contents",
+    "link_to_xls_file",
+    "link_to_csv_file",
+    "note"
+   ],
+   "keyword": null,
+   "modified": "2026-10-27T16:00:49+00:00",
+   "records_count": 27,
+   "title": "Council budget and expenses"
+  },
+  "council-meeting-minutes-archival": {
+   "fields": [],
+   "keyword": null,
+   "modified": "2014-03-28T23:00:00+00:00",
+   "records_count": 0,
+   "title": "Council meeting minutes - archival"
+  },
+  "council-voting-records": {
+   "fields": [
+    "meeting_id",
+    "meeting_type",
+    "vote_date",
+    "vote_number",
+    "agenda_description",
+    "vote_start_date_time",
+    "council_member",
+    "vote",
+    "decision",
+    "vote_detail_id"
+   ],
+   "keyword": null,
+   "modified": "2026-10-30T13:49:10+00:00",
+   "records_count": 83824,
+   "title": "Council voting records"
+  },
+  "cultural-spaces": {
+   "fields": [
+    "year",
+    "cultural_space_name",
+    "website",
+    "type",
+    "primary_use",
+    "address",
+    "local_area",
+    "ownership",
+    "square_feet",
+    "number_of_seats",
+    "active_space",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2022-06-09T12:03:30+00:00",
+   "records_count": 1942,
+   "title": "Cultural Spaces"
+  },
+  "dashboard-cards": {
+   "fields": [
+    "dashboardid",
+    "categoryid",
+    "cardid",
+    "indicatorid",
+    "sourcesystemid",
+    "granularity",
+    "indicatorshortname",
+    "reportingperiodlabel",
+    "reportingperiodvalue",
+    "reportingperiodstatus",
+    "indicatorclarification",
+    "desiredtrend",
+    "includedesiredtrend",
+    "targetlabel",
+    "targetvalue",
+    "cardorderincategory",
+    "detailpageurl",
+    "lastupdated",
+    "cardtags",
+    "geodisagg",
+    "disaggregationtypes",
+    "readytopublish"
+   ],
+   "keyword": [
+    "dashboard"
+   ],
+   "modified": "2026-01-12T20:08:07+00:00",
+   "records_count": 23,
+   "title": "Dashboard Cards"
+  },
+  "dashboard-pages-and-categories": {
+   "fields": [
+    "dashboardid",
+    "dashboardname",
+    "dashboardintro",
+    "dashboardcategoriescount",
+    "dashboardcardcount",
+    "categoryid",
+    "categoryname",
+    "categorysortorder",
+    "categorycolour",
+    "categorycontentintro",
+    "categorycontentsidebar",
+    "readytopublish",
+    "dashboardhtmldescription",
+    "dashboardhtmlkeywords",
+    "tagfilters",
+    "dashboardtopsidebarcontent"
+   ],
+   "keyword": [
+    "dashboard"
+   ],
+   "modified": "2026-01-12T20:04:01+00:00",
+   "records_count": 12,
+   "title": "Dashboard Pages and Categories"
+  },
+  "dedicated-fire-protection-systems-dfps-water-mains": {
+   "fields": [
+    "diameter_mm",
+    "installation_date",
+    "lining_material",
+    "material",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "water"
+   ],
+   "modified": "2024-01-15T13:29:48+00:00",
+   "records_count": 245,
+   "title": "Dedicated fire protection systems (DFPS) water mains"
+  },
+  "designated-floodplain": {
+   "fields": [
+    "object_id",
+    "name",
+    "description",
+    "are_in_sq_meters",
+    "url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "climate change"
+   ],
+   "modified": "2026-08-27T19:41:21+00:00",
+   "records_count": 8,
+   "title": "Designated floodplain"
+  },
+  "development-cost-levy-dcl-areas": {
+   "fields": [
+    "name",
+    "effective_date",
+    "expiry_date",
+    "dcl_url",
+    "by_law_number",
+    "dcl_district",
+    "commercial_other_rate_sqft",
+    "industrial_rate_sqft",
+    "low_density_rate_sqft",
+    "medium_density_rate_sqft",
+    "mixed_employment_rate_sqft",
+    "high_density_rate_sqft",
+    "notes",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-11-02T13:30:40+00:00",
+   "records_count": 5,
+   "title": "Development Cost Levy (DCL) areas"
+  },
+  "digital-elevation-model": {
+   "fields": [],
+   "keyword": null,
+   "modified": "2015-08-18T21:00:00+00:00",
+   "records_count": 0,
+   "title": "Digital elevation model"
+  },
+  "directional-traffic-count-locations": {
+   "fields": [
+    "location",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2020-11-19T12:50:49+00:00",
+   "records_count": 6680,
+   "title": "Directional traffic count locations"
+  },
+  "disability-parking": {
+   "fields": [
+    "object_id",
+    "location",
+    "geo_local_area",
+    "street_name",
+    "block",
+    "type",
+    "description",
+    "spaces",
+    "side",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "parking",
+    "traffic"
+   ],
+   "modified": "2026-10-26T13:30:43+00:00",
+   "records_count": 163,
+   "title": "Accessible parking"
+  },
+  "district-lot-numbers": {
+   "fields": [
+    "geo_local_area",
+    "geom",
+    "label",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-05-23T13:30:46+00:00",
+   "records_count": 3786,
+   "title": "District lot numbers"
+  },
+  "district-lot-outlines": {
+   "fields": [
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2024-02-05T13:23:42+00:00",
+   "records_count": 689,
+   "title": "District lot outlines"
+  },
+  "dog-off-leash-parks": {
+   "fields": [
+    "object_id",
+    "park_name",
+    "address",
+    "geo_local_area",
+    "hours",
+    "fenced",
+    "surface_type",
+    "seating",
+    "shade",
+    "drinking_fountain_people",
+    "drinking_fountain_dogs",
+    "washroom_nearby",
+    "beach_access",
+    "area_in_square_meters",
+    "year_created",
+    "comments",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "public place"
+   ],
+   "modified": "2026-08-10T13:31:10+00:00",
+   "records_count": 54,
+   "title": "Dog off leash parks"
+  },
+  "downtown-district-sub-areas": {
+   "fields": [
+    "geom",
+    "name",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "district and area"
+   ],
+   "modified": "2020-11-19T11:48:05+00:00",
+   "records_count": 29,
+   "title": "Downtown district sub areas"
+  },
+  "downtown-historic-railway": {
+   "fields": [
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2026-06-03T17:39:47+00:00",
+   "records_count": 14,
+   "title": "Downtown Historic Railway"
+  },
+  "drinking-fountains": {
+   "fields": [
+    "mapid",
+    "name",
+    "location",
+    "maintainer",
+    "in_operation",
+    "pet_friendly",
+    "photo_name",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "water"
+   ],
+   "modified": "2022-06-27T12:04:11+00:00",
+   "records_count": 278,
+   "title": "Drinking fountains"
+  },
+  "elected-officials-contact-information": {
+   "fields": [
+    "election",
+    "primary_role",
+    "first_name",
+    "last_name",
+    "gender",
+    "email",
+    "url",
+    "photo_url",
+    "address_line_1",
+    "locality",
+    "postal_code",
+    "province",
+    "phone",
+    "fax"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2023-02-24T13:26:05+00:00",
+   "records_count": 18,
+   "title": "Elected officials contact information"
+  },
+  "electric-vehicle-charging-stations": {
+   "fields": [
+    "address",
+    "local_area",
+    "location",
+    "voltage",
+    "connectors",
+    "ports",
+    "cost",
+    "status",
+    "level_1",
+    "url",
+    "access",
+    "make_and_model",
+    "operator",
+    "owner",
+    "lot_type",
+    "image",
+    "object_id",
+    "map_id",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-09-28T21:35:36+00:00",
+   "records_count": 54,
+   "title": "Electric vehicle charging stations"
+  },
+  "elevation-contour-lines-1-metre-contours": {
+   "fields": [
+    "elevation",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2019-05-22T16:09:46+00:00",
+   "records_count": 5929,
+   "title": "Elevation contour lines - 1-metre contours"
+  },
+  "elevation-contour-lines-10-metre-contours": {
+   "fields": [
+    "elevation",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2019-05-22T16:08:37+00:00",
+   "records_count": 811,
+   "title": "Elevation contour lines - 10-metre contours"
+  },
+  "elevation-contour-lines-2-metre-contours": {
+   "fields": [
+    "elevation",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2019-05-22T16:09:52+00:00",
+   "records_count": 2093,
+   "title": "Elevation contour lines - 2-metre contours"
+  },
+  "elevation-points": {
+   "fields": [],
+   "keyword": null,
+   "modified": "2010-06-30T16:00:00+00:00",
+   "records_count": 0,
+   "title": "Elevation points"
+  },
+  "employee-remuneration-and-expenses-earning-over-75000": {
+   "fields": [
+    "year",
+    "name",
+    "department",
+    "title",
+    "remuneration",
+    "expenses"
+   ],
+   "keyword": null,
+   "modified": "2026-04-16T16:32:33+00:00",
+   "records_count": 49742,
+   "title": "Employee remuneration and expenses (earning over $75,000)"
+  },
+  "facet-grid-boundaries": {
+   "fields": [
+    "facet_text",
+    "geom"
+   ],
+   "keyword": null,
+   "modified": "2020-11-19T11:58:16+00:00",
+   "records_count": 621,
+   "title": "Facet grid boundaries"
+  },
+  "false-creek-navigable-channel": {
+   "fields": [
+    "geom",
+    "name"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2026-06-03T17:39:50+00:00",
+   "records_count": 1,
+   "title": "False Creek navigable channel"
+  },
+  "film-office-work-areas": {
+   "fields": [
+    "geom",
+    "name",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2021-09-27T10:33:42+00:00",
+   "records_count": 22,
+   "title": "Film office work areas"
+  },
+  "fire-halls": {
+   "fields": [
+    "name",
+    "address",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-05-23T13:30:51+00:00",
+   "records_count": 20,
+   "title": "Fire halls"
+  },
+  "food-vendors": {
+   "fields": [
+    "key",
+    "vendor_type",
+    "status",
+    "business_name",
+    "location",
+    "description",
+    "geo_localarea",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2020-11-19T11:54:36+00:00",
+   "records_count": 91,
+   "title": "Food Vendors"
+  },
+  "free-and-low-cost-food-programs": {
+   "fields": [
+    "program_name",
+    "description",
+    "organization_name",
+    "address",
+    "program_population_served",
+    "provides_meals",
+    "delivery_available",
+    "provides_hampers",
+    "takeout_available",
+    "wheelchair_accessible",
+    "cost_of_meals",
+    "cost_of_hampers",
+    "signup_required",
+    "signup_email",
+    "signup_phone_number",
+    "requires_referral",
+    "comment",
+    "local_area",
+    "open_monday",
+    "open_tuesday",
+    "open_wednesday",
+    "open_thursday",
+    "open_friday",
+    "open_saturday",
+    "open_sunday",
+    "days_open",
+    "latitude",
+    "longitude",
+    "geom"
+   ],
+   "keyword": null,
+   "modified": "2026-08-31T13:49:38+00:00",
+   "records_count": 77,
+   "title": "Free and low cost food programs"
+  },
+  "garbage-collection-schedule-zones-for-multi-unit-residential-buildings": {
+   "fields": [],
+   "keyword": [
+    "garbage"
+   ],
+   "modified": "2019-03-10T08:00:00+00:00",
+   "records_count": 0,
+   "title": "Garbage collection schedule zones for multi-unit residential buildings"
+  },
+  "garbage-collection-schedule-zones-for-single-family-homes-and-duplexes": {
+   "fields": [],
+   "keyword": [
+    "garbage"
+   ],
+   "modified": "2019-05-19T07:00:00+00:00",
+   "records_count": 0,
+   "title": "Garbage collection schedule zones for single family homes and duplexes"
+  },
+  "goads-fire-insurance-map-1912-georectified": {
+   "fields": [
+    "sdl_id",
+    "ecw_url",
+    "tiff_url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2019-06-24T17:23:03+00:00",
+   "records_count": 100,
+   "title": "Goad's Fire Insurance Map 1912 (georectified)"
+  },
+  "graffiti": {
+   "fields": [
+    "count",
+    "geo_local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-05-23T13:30:57+00:00",
+   "records_count": 7683,
+   "title": "Graffiti"
+  },
+  "greenest-city-projects": {
+   "fields": [
+    "mapid",
+    "name",
+    "category1",
+    "category2",
+    "address",
+    "short_description",
+    "url",
+    "url2",
+    "url3",
+    "geom",
+    "geo_local_area"
+   ],
+   "keyword": null,
+   "modified": "2026-06-03T17:39:54+00:00",
+   "records_count": 324,
+   "title": "Greenest City projects"
+  },
+  "greenways": {
+   "fields": [
+    "name",
+    "status",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-08-27T19:40:40+00:00",
+   "records_count": 24,
+   "title": "Greenways"
+  },
+  "gvrd-sewer-trunk-mains": {
+   "fields": [
+    "effluent_type",
+    "material",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "sewer"
+   ],
+   "modified": "2026-11-04T13:31:03+00:00",
+   "records_count": 1657,
+   "title": "GVRD sewer trunk mains"
+  },
+  "heritage-sites": {
+   "fields": [
+    "id",
+    "streetnumber",
+    "streetname",
+    "additionallocationinformation",
+    "category",
+    "buildingnamespecifics",
+    "evaluationgroup",
+    "municipaldesignationm",
+    "provincialdesignationp",
+    "heritagerevitalizationagreementh",
+    "interiordesignationi",
+    "landscapedesignationl",
+    "heritageconservationareaca",
+    "heritageconservationcovenanthc",
+    "federaldesignationf",
+    "status",
+    "dateoflastupdate",
+    "localarea",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2023-03-24T12:23:33+00:00",
+   "records_count": 2495,
+   "title": "Heritage sites"
+  },
+  "homeless-shelter-locations": {
+   "fields": [
+    "facility",
+    "category",
+    "phone",
+    "meals",
+    "pets",
+    "carts",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-11-02T13:30:58+00:00",
+   "records_count": 17,
+   "title": "Homeless shelter locations"
+  },
+  "icis-data-package": {
+   "fields": [],
+   "keyword": null,
+   "modified": "2019-07-09T07:00:00+00:00",
+   "records_count": 0,
+   "title": "ICIS data package"
+  },
+  "indicator-data": {
+   "fields": [
+    "indicatorid",
+    "indicatorname",
+    "granularity",
+    "periodlabel",
+    "periodend",
+    "actualvalue",
+    "actualvaluetext",
+    "forecastvalue",
+    "targetvalue",
+    "targetvaluetext",
+    "notes",
+    "geolevelname",
+    "disaggregationcategory",
+    "geographyid",
+    "dimension",
+    "dimensionid",
+    "geographyname",
+    "geom",
+    "dashboardid",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "dashboard"
+   ],
+   "modified": "2026-01-12T20:06:00+00:00",
+   "records_count": 2280,
+   "title": "Indicator Data"
+  },
+  "indicator-details": {
+   "fields": [
+    "cardid",
+    "indicatorid",
+    "indicatorshortname",
+    "reportingperiodlabel",
+    "reportingperiodvalue",
+    "reportingperiodstatus",
+    "indicatorclarification",
+    "includedesiredtrend",
+    "desiredtrend",
+    "targetlabel",
+    "targetvalue",
+    "granularity",
+    "indicatorfullname",
+    "indicatordescription",
+    "chartyaxislabel",
+    "contentwhy",
+    "contenthow",
+    "chartfromperiod",
+    "charttoperiod",
+    "contentprogress",
+    "contentnotes",
+    "dashboardname",
+    "dashboardpageurl",
+    "categoryname",
+    "previousindicatorurl",
+    "previousindicatorname",
+    "nextindicatorurl",
+    "nextindicatorname",
+    "yaxisminimum",
+    "tagbundle",
+    "citywidegeographyid",
+    "citywidegeolevelcommonnamesingular",
+    "geodisaglevelcommonnameplural",
+    "geodisaglevelcommonnamesingular",
+    "disagdimensions",
+    "previouscardid",
+    "nextcardid",
+    "disaggregationtypes",
+    "geodisaglevelreference"
+   ],
+   "keyword": [
+    "dashboard"
+   ],
+   "modified": "2026-01-12T20:09:46+00:00",
+   "records_count": 23,
+   "title": "Indicator Details"
+  },
+  "intersection-traffic-movement-counts": {
+   "fields": [
+    "geom",
+    "intersection",
+    "url"
+   ],
+   "keyword": null,
+   "modified": "2020-11-19T12:00:24+00:00",
+   "records_count": 659,
+   "title": "Intersection traffic movement counts"
+  },
+  "issued-building-permits": {
+   "fields": [
+    "permitnumber",
+    "permitnumbercreateddate",
+    "issuedate",
+    "permitelapseddays",
+    "projectvalue",
+    "typeofwork",
+    "address",
+    "projectdescription",
+    "permitcategory",
+    "applicant",
+    "applicantaddress",
+    "propertyuse",
+    "specificusecategory",
+    "buildingcontractor",
+    "buildingcontractoraddress",
+    "issueyear",
+    "geolocalarea",
+    "geom",
+    "yearmonth",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-11-04T14:50:27+00:00",
+   "records_count": 52572,
+   "title": "Issued building permits"
+  },
+  "issued-operating-permits-water-systems-": {
+   "fields": [
+    "operating_permit_number",
+    "address",
+    "mechanical_system_type",
+    "current_system_status",
+    "permit_renewal_date",
+    "voluntary_participant",
+    "date_of_most_recent_report",
+    "legionella_pneumophila",
+    "marker_colour",
+    "escherichia_coli",
+    "turbidity",
+    "temperature",
+    "total_suspended_solids",
+    "benzene",
+    "toluene",
+    "ethylbenzene",
+    "xylenes_total",
+    "eocp_certification_number",
+    "geom",
+    "geo_local_area",
+    "water_quality_reports_link",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-11-04T14:49:36+00:00",
+   "records_count": 1247,
+   "title": "Issued operating permits \u2013 water systems"
+  },
+  "lanes": {
+   "fields": [
+    "from_hundred_block",
+    "geom",
+    "std_street",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-11-02T13:31:07+00:00",
+   "records_count": 7859,
+   "title": "Lanes"
+  },
+  "legal-lot-numbers": {
+   "fields": [
+    "geo_local_area",
+    "geom",
+    "lot_number",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-11-02T13:32:55+00:00",
+   "records_count": 111993,
+   "title": "Legal lot numbers"
+  },
+  "libraries": {
+   "fields": [
+    "address",
+    "name",
+    "urllink",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "public place"
+   ],
+   "modified": "2020-11-19T11:33:47+00:00",
+   "records_count": 22,
+   "title": "Libraries"
+  },
+  "lidar-2013": {
+   "fields": [
+    "name",
+    "geotiff_url",
+    "lidar_url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2019-05-16T15:44:58+00:00",
+   "records_count": 168,
+   "title": "LiDAR 2013"
+  },
+  "lidar-2018": {
+   "fields": [
+    "name",
+    "lidar_url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2019-11-20T17:10:55+00:00",
+   "records_count": 181,
+   "title": "LiDAR 2018"
+  },
+  "lidar-2022": {
+   "fields": [
+    "name",
+    "lidar_url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2023-04-18T16:48:31+00:00",
+   "records_count": 181,
+   "title": "LiDAR 2022"
+  },
+  "local-area-boundary": {
+   "fields": [
+    "name",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2023-06-24T12:22:11+00:00",
+   "records_count": 22,
+   "title": "Local area boundary"
+  },
+  "motorcycle-parking": {
+   "fields": [
+    "street",
+    "block",
+    "local_area",
+    "rush_hour_regulation",
+    "time_limit",
+    "service_status",
+    "meter_id",
+    "credit_card",
+    "mobile_payment_number",
+    "sector",
+    "direction",
+    "meter_head",
+    "rate_9am_6pm",
+    "rate_code_9am_6pm",
+    "rate_6pm_10pm",
+    "rate_code_6pm_10pm",
+    "flat_rate",
+    "time_limit_9am_6pm",
+    "time_limit_6pm_10pm",
+    "time_limit_weekend_9am_6pm",
+    "time_limit_weekend_6pm_10pm",
+    "time_limit_override",
+    "am_rush_hours",
+    "pm_rush_hours",
+    "prohibition_1_days",
+    "prohibition_1_time",
+    "prohibition_1_zone",
+    "prohibition_2_days",
+    "prohibition_2_time",
+    "prohibition_2_zone",
+    "prohibition_override",
+    "feature_id",
+    "post_feature_id",
+    "meter_mechanism",
+    "meter_manufacturer",
+    "parking_zone_feature_id",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "parking",
+    "traffic"
+   ],
+   "modified": "2026-11-02T13:31:08+00:00",
+   "records_count": 223,
+   "title": "Motorcycle parking"
+  },
+  "mountain-view-cemetery-burial-index": {
+   "fields": [
+    "personid",
+    "lastname",
+    "firstname",
+    "maidenname",
+    "alias",
+    "dateofdeath",
+    "dateinterred",
+    "referencenumberinter",
+    "sitefullname",
+    "geo_local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-11-02T13:34:10+00:00",
+   "records_count": 150139,
+   "title": "Mountain View Cemetery burial index"
+  },
+  "municipal-election-results": {
+   "fields": [
+    "election",
+    "link_to_csv",
+    "link_to_xls",
+    "link_to_attributes"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2026-10-23T19:06:18+00:00",
+   "records_count": 15,
+   "title": "Municipal election results"
+  },
+  "noise-control-areas": {
+   "fields": [
+    "name",
+    "url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "district and area"
+   ],
+   "modified": "2020-11-19T11:34:00+00:00",
+   "records_count": 3,
+   "title": "Noise control areas"
+  },
+  "non-city-streets": {
+   "fields": [
+    "type",
+    "from_hblk",
+    "streetname",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-05-04T13:31:20+00:00",
+   "records_count": 953,
+   "title": "Non-City streets"
+  },
+  "non-market-housing": {
+   "fields": [
+    "index_number",
+    "name",
+    "address",
+    "project_status",
+    "occupancy_year",
+    "operator",
+    "clientele_families",
+    "clientele_seniors",
+    "clientele_other",
+    "design_accessible_1br",
+    "design_accessible_2br",
+    "design_accessible_3br",
+    "design_accessible_4br",
+    "design_accessible_studio",
+    "design_accessible_room",
+    "design_adaptable_1br",
+    "design_adaptable_2br",
+    "design_adaptable_3br",
+    "design_adaptable_4br",
+    "design_standard_1br",
+    "design_standard_2br",
+    "design_standard_3br",
+    "design_standard_4br",
+    "design_standard_studio",
+    "design_standard_room",
+    "url",
+    "geom"
+   ],
+   "keyword": null,
+   "modified": "2026-11-01T13:31:17+00:00",
+   "records_count": 641,
+   "title": "Non-market housing"
+  },
+  "olympic-city-sites": {
+   "fields": [
+    "site",
+    "url_link",
+    "geom"
+   ],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2019-06-21T16:42:24+00:00",
+   "records_count": 5,
+   "title": "Olympic City sites"
+  },
+  "olympic-transportation-plan-no-stopping-areas": {
+   "fields": [
+    "in_effect",
+    "geom"
+   ],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2019-06-21T16:42:22+00:00",
+   "records_count": 64,
+   "title": "Olympic transportation plan no stopping areas"
+  },
+  "olympic-transportation-plan-olympic-lanes": {
+   "fields": [
+    "bi_id",
+    "in_effect",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2019-06-21T16:42:21+00:00",
+   "records_count": 10,
+   "title": "Olympic transportation plan olympic lanes"
+  },
+  "olympic-transportation-plan-parking-restrictions": {
+   "fields": [
+    "bi_id",
+    "geom",
+    "in_effect",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2016-06-26T09:30:08+00:00",
+   "records_count": 25,
+   "title": "Olympic transportation plan parking restrictions"
+  },
+  "olympic-transportation-plan-pedestrian-corridors": {
+   "fields": [
+    "bi_id",
+    "in_effect",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2019-06-21T16:42:23+00:00",
+   "records_count": 5,
+   "title": "Olympic transportation plan pedestrian corridors"
+  },
+  "olympic-transportation-plan-truck-routes": {
+   "fields": [],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2016-02-11T16:07:15+00:00",
+   "records_count": 0,
+   "title": "Olympic transportation plan truck routes"
+  },
+  "olympic-transportation-plan-venue-closure-areas": {
+   "fields": [
+    "bi_id",
+    "in_effect",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2019-06-21T16:42:18+00:00",
+   "records_count": 7,
+   "title": "Olympic transportation plan venue closure areas"
+  },
+  "olympic-transportation-plan-venue-closure-roads": {
+   "fields": [
+    "in_effect",
+    "geom"
+   ],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2019-06-21T16:42:19+00:00",
+   "records_count": 29,
+   "title": "Olympic transportation plan venue closure roads"
+  },
+  "olympic-venues": {
+   "fields": [
+    "venue",
+    "url_link",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "2010 Winter Games"
+   ],
+   "modified": "2019-06-21T16:42:25+00:00",
+   "records_count": 10,
+   "title": "Olympic venues"
+  },
+  "one-way-streets": {
+   "fields": [
+    "geom",
+    "hblock",
+    "streetuse",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-04-27T13:31:27+00:00",
+   "records_count": 314,
+   "title": "One way streets"
+  },
+  "open-data-change-log": {
+   "fields": [
+    "datasets",
+    "changetype",
+    "title",
+    "datasetids",
+    "details",
+    "logdate"
+   ],
+   "keyword": null,
+   "modified": "2026-09-16T13:49:24+00:00",
+   "records_count": 204,
+   "title": "Open data change log"
+  },
+  "operating-permits-water-systems-water-quality-reports": {
+   "fields": [
+    "operating_permit_number",
+    "permit_status",
+    "address",
+    "mechanical_system_type",
+    "system_report_date",
+    "system_status",
+    "legionella_pneumophila",
+    "escherichia_coli",
+    "turbidity",
+    "temperature",
+    "make_up_water",
+    "make_up_water_units",
+    "treated_non_potable_water",
+    "treated_non_potable_water_units",
+    "total_suspended_solids",
+    "benzene",
+    "toluene",
+    "ethylbenzene",
+    "xylenes_total",
+    "permit_details_link"
+   ],
+   "keyword": null,
+   "modified": "2026-11-04T14:50:00+00:00",
+   "records_count": 37155,
+   "title": "Operating permits - water systems \u2014 water quality reports"
+  },
+  "orthophoto-imagery-2006": {
+   "fields": [],
+   "keyword": null,
+   "modified": "2010-07-13T17:00:00+00:00",
+   "records_count": 0,
+   "title": "Orthophoto imagery 2006"
+  },
+  "orthophoto-imagery-2008": {
+   "fields": [],
+   "keyword": null,
+   "modified": "2010-08-04T21:00:00+00:00",
+   "records_count": 0,
+   "title": "Orthophoto imagery 2008"
+  },
+  "orthophoto-imagery-2009": {
+   "fields": [],
+   "keyword": null,
+   "modified": "2010-08-04T21:00:00+00:00",
+   "records_count": 0,
+   "title": "Orthophoto imagery 2009"
+  },
+  "orthophoto-imagery-2011": {
+   "fields": [],
+   "keyword": null,
+   "modified": "2013-07-25T15:00:00+00:00",
+   "records_count": 0,
+   "title": "Orthophoto imagery 2011"
+  },
+  "orthophoto-imagery-2013": {
+   "fields": [
+    "name",
+    "mrsid_url",
+    "ecw_url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2019-07-26T23:23:51+00:00",
+   "records_count": 527,
+   "title": "Orthophoto imagery 2013"
+  },
+  "orthophoto-imagery-2015": {
+   "fields": [
+    "name",
+    "mrsid_url",
+    "ecw_url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2019-07-26T23:23:52+00:00",
+   "records_count": 463,
+   "title": "Orthophoto imagery 2015"
+  },
+  "orthophoto-imagery-2022": {
+   "fields": [
+    "name",
+    "mrsid_url",
+    "ecw_url",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2024-05-08T16:59:54+00:00",
+   "records_count": 470,
+   "title": "Orthophoto imagery 2022"
+  },
+  "parking-meters": {
+   "fields": [
+    "object_id",
+    "meter_id",
+    "service_status",
+    "meter_head",
+    "credit_card",
+    "mobile_payment_number",
+    "local_area",
+    "sector",
+    "direction",
+    "rate_9am_6pm",
+    "rate_6pm_10pm",
+    "flat_rate",
+    "time_limit_9am_6pm",
+    "time_limit_6pm_10pm",
+    "time_limit_weekend_9am_6pm",
+    "time_limit_weekend_6pm_10pm",
+    "time_limit_override",
+    "am_rush_hours",
+    "pm_rush_hours",
+    "prohibition_1_days",
+    "prohibition_1_time",
+    "prohibition_1_zone",
+    "prohibition_2_days",
+    "prohibition_2_time",
+    "prohibition_2_zone",
+    "prohibition_override",
+    "vehicle_type",
+    "feature_id",
+    "post_feature_id",
+    "meter_mechanism",
+    "meter_manufacturer",
+    "parking_zone_feature_id",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "parking",
+    "traffic"
+   ],
+   "modified": "2026-11-02T13:31:38+00:00",
+   "records_count": 3521,
+   "title": "Parking meters"
+  },
+  "parking-tickets": {
+   "fields": [
+    "block",
+    "street",
+    "entrydate",
+    "bylaw",
+    "section",
+    "status",
+    "infractiontext",
+    "year",
+    "bi_id"
+   ],
+   "keyword": [
+    "parking"
+   ],
+   "modified": "2026-10-15T13:54:50+00:00",
+   "records_count": 357691,
+   "title": "Parking tickets"
+  },
+  "parking-tickets-2010-2013": {
+   "fields": [
+    "block",
+    "street",
+    "entrydate",
+    "bylaw",
+    "section",
+    "status",
+    "infractiontext",
+    "year",
+    "bi_id"
+   ],
+   "keyword": [
+    "parking"
+   ],
+   "modified": "2019-08-07T18:17:45+00:00",
+   "records_count": 1091149,
+   "title": "Parking tickets 2010-2013"
+  },
+  "parking-tickets-2014-2016": {
+   "fields": [
+    "block",
+    "street",
+    "entrydate",
+    "bylaw",
+    "section",
+    "status",
+    "infractiontext",
+    "year",
+    "bi_id"
+   ],
+   "keyword": [
+    "parking"
+   ],
+   "modified": "2019-08-06T14:25:17+00:00",
+   "records_count": 1169233,
+   "title": "Parking tickets 2014-2016"
+  },
+  "parking-tickets-2017-2019": {
+   "fields": [
+    "block",
+    "street",
+    "entrydate",
+    "bylaw",
+    "section",
+    "status",
+    "infractiontext",
+    "year"
+   ],
+   "keyword": [
+    "parking"
+   ],
+   "modified": "2025-07-15T13:12:21+00:00",
+   "records_count": 1318735,
+   "title": "Parking tickets 2017-2019"
+  },
+  "parking-tickets-2020-2025": {
+   "fields": [
+    "block",
+    "street",
+    "entrydate",
+    "bylaw",
+    "section",
+    "status",
+    "infractiontext",
+    "year",
+    "bi_id"
+   ],
+   "keyword": [
+    "parking"
+   ],
+   "modified": "2026-06-01T23:08:21+00:00",
+   "records_count": 2472917,
+   "title": "Parking tickets 2020-2025"
+  },
+  "parks": {
+   "fields": [
+    "parkid",
+    "name",
+    "official",
+    "advisories",
+    "specialfeatures",
+    "facilities",
+    "washrooms",
+    "streetnumber",
+    "streetname",
+    "ewstreet",
+    "nsstreet",
+    "neighbourhoodname",
+    "neighbourhoodurl",
+    "hectare",
+    "googlemapdest"
+   ],
+   "keyword": [
+    "park"
+   ],
+   "modified": "2025-09-22T13:47:09+00:00",
+   "records_count": 218,
+   "title": "Parks"
+  },
+  "parks-facilities": {
+   "fields": [
+    "parkid",
+    "name",
+    "facilitytype",
+    "facilitycount",
+    "facilityurl"
+   ],
+   "keyword": [
+    "park"
+   ],
+   "modified": "2026-07-30T18:42:14+00:00",
+   "records_count": 645,
+   "title": "Parks facilities"
+  },
+  "parks-polygon-representation": {
+   "fields": [
+    "object_id",
+    "park_name",
+    "park_url",
+    "address",
+    "local_area",
+    "classification",
+    "area_hectare",
+    "area",
+    "length",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "park"
+   ],
+   "modified": "2026-09-28T13:32:55+00:00",
+   "records_count": 254,
+   "title": "Parks - polygon representation"
+  },
+  "parks-special-features": {
+   "fields": [
+    "parkid",
+    "name",
+    "specialfeature"
+   ],
+   "keyword": [
+    "park"
+   ],
+   "modified": "2020-11-19T11:34:31+00:00",
+   "records_count": 26,
+   "title": "Parks special features"
+  },
+  "pavement-condition-rating": {
+   "fields": [
+    "road_name",
+    "from_street",
+    "to_street",
+    "length_m",
+    "pci_rating",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-10-23T13:51:28+00:00",
+   "records_count": 9016,
+   "title": "Pavement condition rating 2020"
+  },
+  "pavement-condition-rating-2023": {
+   "fields": [
+    "object_id",
+    "street_name",
+    "from_street",
+    "to_street",
+    "local_area",
+    "pci_rating",
+    "street_class",
+    "bike_route",
+    "bus_route",
+    "length_m",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-09-15T18:15:12+00:00",
+   "records_count": 8470,
+   "title": "Pavement condition rating 2023"
+  },
+  "pavement-condition-rating-major-road-network": {
+   "fields": [
+    "road_name",
+    "from_street",
+    "to_street",
+    "length_m",
+    "pci_rating",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-09-15T13:50:32+00:00",
+   "records_count": 5404,
+   "title": "Pavement condition rating - major road network 2021"
+  },
+  "pavement-condition-rating-major-road-network-2023": {
+   "fields": [
+    "object_id",
+    "road",
+    "length_m",
+    "pci_rating",
+    "local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-09-15T16:24:01+00:00",
+   "records_count": 5404,
+   "title": "Pavement condition rating - major road network 2023"
+  },
+  "property-addresses": {
+   "fields": [
+    "civic_number",
+    "std_street",
+    "p_parcel_id",
+    "pcoord",
+    "site_id",
+    "note",
+    "geo_local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-11-02T13:33:36+00:00",
+   "records_count": 99728,
+   "title": "Property addresses"
+  },
+  "property-cadastral-boundaries": {
+   "fields": [
+    "geom",
+    "dimensions",
+    "type",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-11-02T13:35:31+00:00",
+   "records_count": 321716,
+   "title": "Property cadastral boundaries"
+  },
+  "property-easements": {
+   "fields": [
+    "geom",
+    "label",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-11-02T13:30:59+00:00",
+   "records_count": 13164,
+   "title": "Property easements"
+  },
+  "property-parcel-polygons": {
+   "fields": [
+    "civic_number",
+    "streetname",
+    "tax_coord",
+    "site_id",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2026-11-02T13:33:49+00:00",
+   "records_count": 99685,
+   "title": "Property parcel polygons"
+  },
+  "property-tax-report": {
+   "fields": [
+    "pid",
+    "legal_type",
+    "folio",
+    "land_coordinate",
+    "zoning_district",
+    "zoning_classification",
+    "lot",
+    "plan",
+    "block",
+    "district_lot",
+    "from_civic_number",
+    "to_civic_number",
+    "street_name",
+    "property_postal_code",
+    "narrative_legal_line1",
+    "narrative_legal_line2",
+    "narrative_legal_line3",
+    "narrative_legal_line4",
+    "narrative_legal_line5",
+    "current_land_value",
+    "current_improvement_value",
+    "tax_assessment_year",
+    "previous_land_value",
+    "previous_improvement_value",
+    "year_built",
+    "big_improvement_year",
+    "tax_levy",
+    "neighbourhood_code",
+    "report_year",
+    "note"
+   ],
+   "keyword": null,
+   "modified": "2026-11-02T15:12:36+00:00",
+   "records_count": 1553567,
+   "title": "Property tax report"
+  },
+  "property-tax-report-2006-2010": {
+   "fields": [
+    "pid",
+    "legal_type",
+    "folio",
+    "land_coordinate",
+    "zoning_district",
+    "zoning_classification",
+    "lot",
+    "plan",
+    "block",
+    "district_lot",
+    "from_civic_number",
+    "to_civic_number",
+    "street_name",
+    "property_postal_code",
+    "narrative_legal_line1",
+    "narrative_legal_line2",
+    "narrative_legal_line3",
+    "current_land_value",
+    "current_improvement_value",
+    "tax_assessment_year",
+    "narrative_legal_line4",
+    "narrative_legal_line5",
+    "previous_improvement_value",
+    "previous_land_value",
+    "year_built",
+    "big_improvement_year",
+    "tax_levy",
+    "neighbourhood_code",
+    "report_year"
+   ],
+   "keyword": null,
+   "modified": "2021-05-08T10:05:26+00:00",
+   "records_count": 892028,
+   "title": "Property tax report 2006-2010"
+  },
+  "property-tax-report-2011-2015": {
+   "fields": [
+    "pid",
+    "legal_type",
+    "folio",
+    "land_coordinate",
+    "zoning_district",
+    "zoning_classification",
+    "lot",
+    "plan",
+    "block",
+    "district_lot",
+    "from_civic_number",
+    "to_civic_number",
+    "street_name",
+    "property_postal_code",
+    "narrative_legal_line1",
+    "narrative_legal_line2",
+    "narrative_legal_line3",
+    "current_land_value",
+    "current_improvement_value",
+    "tax_assessment_year",
+    "narrative_legal_line4",
+    "narrative_legal_line5",
+    "previous_improvement_value",
+    "previous_land_value",
+    "year_built",
+    "big_improvement_year",
+    "tax_levy",
+    "neighbourhood_code",
+    "report_year"
+   ],
+   "keyword": null,
+   "modified": "2021-05-08T10:07:38+00:00",
+   "records_count": 976762,
+   "title": "Property tax report 2011-2015"
+  },
+  "property-tax-report-2016-2019": {
+   "fields": [
+    "pid",
+    "legal_type",
+    "folio",
+    "land_coordinate",
+    "zoning_district",
+    "zoning_classification",
+    "lot",
+    "plan",
+    "block",
+    "district_lot",
+    "from_civic_number",
+    "to_civic_number",
+    "street_name",
+    "property_postal_code",
+    "narrative_legal_line1",
+    "narrative_legal_line2",
+    "narrative_legal_line3",
+    "current_land_value",
+    "current_improvement_value",
+    "tax_assessment_year",
+    "narrative_legal_line4",
+    "narrative_legal_line5",
+    "previous_improvement_value",
+    "previous_land_value",
+    "year_built",
+    "big_improvement_year",
+    "tax_levy",
+    "neighbourhood_code",
+    "report_year"
+   ],
+   "keyword": null,
+   "modified": "2021-05-08T10:10:39+00:00",
+   "records_count": 832969,
+   "title": "Property tax report 2016-2019"
+  },
+  "property-tie-lines": {
+   "fields": [
+    "geom",
+    "p_annotation_lbl_id",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "property"
+   ],
+   "modified": "2024-04-29T12:27:14+00:00",
+   "records_count": 3151,
+   "title": "Property tie lines"
+  },
+  "property-use-inspection-districts": {
+   "fields": [
+    "geom",
+    "name",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2021-10-02T10:33:35+00:00",
+   "records_count": 23,
+   "title": "Property use inspection districts"
+  },
+  "public-art": {
+   "fields": [
+    "registryid",
+    "title_of_work",
+    "artistprojectstatement",
+    "type",
+    "status",
+    "sitename",
+    "siteaddress",
+    "primarymaterial",
+    "url",
+    "photourl",
+    "ownership",
+    "neighbourhood",
+    "locationonsite",
+    "geom",
+    "geo_local_area",
+    "descriptionofwork",
+    "artists",
+    "photocredits",
+    "yearofinstallation",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "art"
+   ],
+   "modified": "2026-10-26T13:32:13+00:00",
+   "records_count": 751,
+   "title": "Public art"
+  },
+  "public-art-artists": {
+   "fields": [
+    "artistid",
+    "firstname",
+    "lastname",
+    "artisturl",
+    "biography",
+    "country",
+    "photo",
+    "photocredit",
+    "website"
+   ],
+   "keyword": [
+    "art"
+   ],
+   "modified": "2026-10-26T13:47:25+00:00",
+   "records_count": 638,
+   "title": "Public art - Artists"
+  },
+  "public-streets": {
+   "fields": [
+    "geom",
+    "hblock",
+    "streetuse",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-11-02T13:32:11+00:00",
+   "records_count": 17073,
+   "title": "Public streets"
+  },
+  "public-trees": {
+   "fields": [
+    "asset_id",
+    "address",
+    "common_name",
+    "genus_name",
+    "species_name",
+    "cultivar_name",
+    "height_m",
+    "diameter_cm",
+    "local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-11-02T14:49:44+00:00",
+   "records_count": 184152,
+   "title": "Public trees"
+  },
+  "public-washrooms": {
+   "fields": [
+    "park_name",
+    "type",
+    "location",
+    "geo_local_area",
+    "summer_hours",
+    "winter_hours",
+    "wheelchair_access",
+    "note",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "toilet"
+   ],
+   "modified": "2026-10-31T13:47:15+00:00",
+   "records_count": 147,
+   "title": "Public washrooms"
+  },
+  "railways": {
+   "fields": [
+    "geom",
+    "name",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2020-11-19T11:52:07+00:00",
+   "records_count": 936,
+   "title": "Railways"
+  },
+  "rapid-transit-lines": {
+   "fields": [
+    "line",
+    "geom"
+   ],
+   "keyword": [
+    "rapid transit"
+   ],
+   "modified": "2020-11-19T11:47:55+00:00",
+   "records_count": 3,
+   "title": "Rapid transit lines"
+  },
+  "rapid-transit-stations": {
+   "fields": [
+    "station",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "rapid transit"
+   ],
+   "modified": "2023-02-22T13:22:23+00:00",
+   "records_count": 22,
+   "title": "Rapid transit stations"
+  },
+  "rental-standards-current-issues": {
+   "fields": [
+    "businessoperator",
+    "detailurl",
+    "streetnumber",
+    "street",
+    "totaloutstanding",
+    "totalunits",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-11-04T14:47:21+00:00",
+   "records_count": 481,
+   "title": "Rental standards - current issues"
+  },
+  "right-of-way-widths": {
+   "fields": [
+    "geom",
+    "width",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-11-02T13:33:02+00:00",
+   "records_count": 26868,
+   "title": "Right-of-way widths"
+  },
+  "road-ahead-current-road-closures": {
+   "fields": [
+    "project",
+    "street",
+    "location",
+    "comp_date",
+    "url_link",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2026-09-17T13:31:44+00:00",
+   "records_count": 23,
+   "title": "Road Ahead current road closures"
+  },
+  "road-ahead-projects-under-construction": {
+   "fields": [
+    "geom",
+    "project",
+    "street",
+    "location",
+    "comp_date",
+    "url_link",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2026-09-17T13:31:46+00:00",
+   "records_count": 68,
+   "title": "Road Ahead projects under construction"
+  },
+  "road-ahead-upcoming-projects": {
+   "fields": [
+    "project",
+    "street",
+    "location",
+    "comp_date",
+    "url_link",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2026-09-17T13:31:48+00:00",
+   "records_count": 199,
+   "title": "Road Ahead upcoming projects"
+  },
+  "schools": {
+   "fields": [
+    "address",
+    "school_category",
+    "school_name",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "school"
+   ],
+   "modified": "2023-07-01T12:23:22+00:00",
+   "records_count": 194,
+   "title": "Schools"
+  },
+  "service-metrics": {
+   "fields": [
+    "department",
+    "service",
+    "indicatorname",
+    "indicatorclarifier",
+    "currentyear",
+    "desiredtrend",
+    "yearminus4valueformatted",
+    "yearminus3valueformatted",
+    "yearminus2valueformatted",
+    "yearminus1valueformatted",
+    "currentyearactualvalue",
+    "nextyeartargetformatted",
+    "notes",
+    "exploredataurl",
+    "dashboardsurls",
+    "indicatorid"
+   ],
+   "keyword": [
+    "budget"
+   ],
+   "modified": "2022-06-17T11:00:40+00:00",
+   "records_count": 328,
+   "title": "Service metrics"
+  },
+  "sewer-catch-basins": {
+   "fields": [
+    "label",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "sewer"
+   ],
+   "modified": "2026-11-02T13:34:02+00:00",
+   "records_count": 45025,
+   "title": "Sewer catch basins"
+  },
+  "sewer-mains": {
+   "fields": [
+    "effluent_type",
+    "material",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "sewer"
+   ],
+   "modified": "2026-11-02T13:34:10+00:00",
+   "records_count": 39927,
+   "title": "Sewer mains"
+  },
+  "sewer-manholes": {
+   "fields": [
+    "cover_elevation_m",
+    "type",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "sewer"
+   ],
+   "modified": "2026-11-02T13:34:15+00:00",
+   "records_count": 36058,
+   "title": "Sewer manholes"
+  },
+  "shared-e-scooter-stations-lime-docking-stations": {
+   "fields": [
+    "station_name",
+    "station_number",
+    "station_location",
+    "station_size",
+    "station_id",
+    "fid",
+    "placement",
+    "jurisdiction",
+    "installation_date",
+    "dock_station_model",
+    "wayfinding_signage",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-09-14T22:40:35+00:00",
+   "records_count": 250,
+   "title": "Shared e-scooter stations (Lime docking stations)"
+  },
+  "shoreline-2002": {
+   "fields": [
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2020-11-19T11:58:30+00:00",
+   "records_count": 2,
+   "title": "Shoreline 2002"
+  },
+  "sidewalk-condition-rating": {
+   "fields": [
+    "object_id",
+    "hundred_block",
+    "sidewalk_condition_index_rating",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-08-28T13:50:38+00:00",
+   "records_count": 15580,
+   "title": "Sidewalk condition rating 2021"
+  },
+  "snow-removal-routes": {
+   "fields": [
+    "name",
+    "route_type",
+    "priority",
+    "length",
+    "shape_length",
+    "object_id",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2026-09-28T16:48:41+00:00",
+   "records_count": 454,
+   "title": "Snow removal routes"
+  },
+  "storefronts-inventory": {
+   "fields": [
+    "store_id",
+    "address",
+    "unit",
+    "civic_number",
+    "street",
+    "address_above_door",
+    "business_name",
+    "year_recorded",
+    "general_business_category",
+    "bia_name",
+    "id_year",
+    "local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-09-14T22:41:26+00:00",
+   "records_count": 61640,
+   "title": "Storefronts inventory"
+  },
+  "street-intersections": {
+   "fields": [
+    "at_street",
+    "on_street",
+    "xstreet",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street"
+   ],
+   "modified": "2026-07-27T13:35:47+00:00",
+   "records_count": 6125,
+   "title": "Street intersections"
+  },
+  "street-lighting-abandoned-conduits": {
+   "fields": [
+    "geom",
+    "wireset_type",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street lighting"
+   ],
+   "modified": "2024-11-18T14:35:55+00:00",
+   "records_count": 774,
+   "title": "Street lighting abandoned conduits"
+  },
+  "street-lighting-conduits": {
+   "fields": [
+    "geom",
+    "wireset_type",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street lighting"
+   ],
+   "modified": "2026-10-12T13:37:00+00:00",
+   "records_count": 65461,
+   "title": "Street lighting conduits"
+  },
+  "street-lighting-junction-boxes": {
+   "fields": [
+    "geom",
+    "material",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street lighting"
+   ],
+   "modified": "2026-10-26T13:35:32+00:00",
+   "records_count": 7994,
+   "title": "Street lighting junction boxes"
+  },
+  "street-lighting-poles": {
+   "fields": [
+    "block_number",
+    "node_number",
+    "geo_local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street lighting"
+   ],
+   "modified": "2026-11-02T13:35:02+00:00",
+   "records_count": 58013,
+   "title": "Street lighting poles"
+  },
+  "street-lighting-service-panels": {
+   "fields": [
+    "geom",
+    "service_panel_number",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "street lighting"
+   ],
+   "modified": "2026-10-26T13:35:41+00:00",
+   "records_count": 1456,
+   "title": "Street lighting service panels"
+  },
+  "street-operations-district-maintenance-areas": {
+   "fields": [
+    "geom",
+    "name",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2020-11-19T11:35:13+00:00",
+   "records_count": 2,
+   "title": "Street operations district maintenance areas"
+  },
+  "subdivision-category-areas": {
+   "fields": [
+    "category",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2024-06-25T16:07:29+00:00",
+   "records_count": 388,
+   "title": "Subdivision category areas"
+  },
+  "traffic-signals": {
+   "fields": [
+    "type",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2026-08-03T13:35:50+00:00",
+   "records_count": 966,
+   "title": "Traffic signals"
+  },
+  "truck-routes": {
+   "fields": [
+    "type",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "traffic"
+   ],
+   "modified": "2020-11-19T11:37:04+00:00",
+   "records_count": 2,
+   "title": "Truck routes"
+  },
+  "view-cones": {
+   "fields": [
+    "object_id",
+    "view_number",
+    "view_cone_name",
+    "description",
+    "url",
+    "shape_length",
+    "shapre_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-11-02T13:34:20+00:00",
+   "records_count": 24,
+   "title": "View cones"
+  },
+  "voting-division-boundaries-2008": {
+   "fields": [
+    "division",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2014-09-05T07:00:00+00:00",
+   "records_count": 133,
+   "title": "Voting division boundaries 2008"
+  },
+  "voting-division-boundaries-2011": {
+   "fields": [
+    "division",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2011-05-19T07:00:00+00:00",
+   "records_count": 135,
+   "title": "Voting division boundaries 2011"
+  },
+  "voting-places-2011": {
+   "fields": [
+    "voting_div",
+    "name",
+    "civic_num",
+    "street",
+    "postal",
+    "room",
+    "geo_local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2019-07-04T17:52:48+00:00",
+   "records_count": 142,
+   "title": "Voting places 2011"
+  },
+  "voting-places-2014": {
+   "fields": [
+    "vd",
+    "facility_name",
+    "facility_address",
+    "advance_only",
+    "location",
+    "local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2019-07-04T17:52:48+00:00",
+   "records_count": 125,
+   "title": "Voting places 2014"
+  },
+  "voting-places-2017": {
+   "fields": [
+    "voting_place_id",
+    "facility_name",
+    "facility_address",
+    "location",
+    "advance_only",
+    "local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2019-07-12T18:18:44+00:00",
+   "records_count": 52,
+   "title": "Voting places 2017"
+  },
+  "voting-places-2018": {
+   "fields": [
+    "voting_place_id",
+    "facility_name",
+    "facility_address",
+    "location",
+    "advance_only",
+    "local_area",
+    "geom"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2022-10-20T16:33:33+00:00",
+   "records_count": 126,
+   "title": "Voting places 2018"
+  },
+  "voting-places-2022": {
+   "fields": [
+    "voting_place_id",
+    "facility_name",
+    "facility_address",
+    "location",
+    "advance_only",
+    "supercentre",
+    "accessbility",
+    "local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2022-10-20T21:14:38+00:00",
+   "records_count": 104,
+   "title": "Voting places 2022"
+  },
+  "voting-places-2025": {
+   "fields": [
+    "vp_id",
+    "facility_name",
+    "facility_address",
+    "location",
+    "advance_only",
+    "supercentre",
+    "accessibility",
+    "local_area",
+    "geom"
+   ],
+   "keyword": [
+    "election"
+   ],
+   "modified": "2025-03-13T20:04:39+00:00",
+   "records_count": 26,
+   "title": "Voting places 2025"
+  },
+  "voting-places-2026": {
+   "fields": [
+    "voting_place_id",
+    "facility_name",
+    "facility_address",
+    "location",
+    "advance_only",
+    "supercentre",
+    "ice",
+    "accessbility",
+    "bike_rack_location",
+    "nearest_transit_within_5_min_walk",
+    "local_area",
+    "geometry"
+   ],
+   "keyword": [
+    "election",
+    "voting"
+   ],
+   "modified": "2026-10-26T22:14:07+00:00",
+   "records_count": 147,
+   "title": "Voting places 2026"
+  },
+  "water-control-valves": {
+   "fields": [
+    "subsystem",
+    "size",
+    "open_ind",
+    "x_offset_from_prop_line_m",
+    "x_offset_direction",
+    "y_offset_from_prop_line_m",
+    "y_offset_direction",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "water"
+   ],
+   "modified": "2026-11-02T13:34:48+00:00",
+   "records_count": 21332,
+   "title": "Water control valves"
+  },
+  "water-distribution-mains": {
+   "fields": [
+    "geom",
+    "diameter_mm",
+    "installation_date",
+    "lining_material",
+    "material",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "water"
+   ],
+   "modified": "2026-11-02T13:35:28+00:00",
+   "records_count": 67656,
+   "title": "Water distribution mains"
+  },
+  "water-hydrants": {
+   "fields": [
+    "id",
+    "subsystem",
+    "code",
+    "covwaterhydrantunittype",
+    "distancefromcorner",
+    "feederlen",
+    "dir",
+    "line",
+    "color",
+    "incomm",
+    "chr0",
+    "chr1",
+    "street_number",
+    "street",
+    "oldhydnum",
+    "castsub",
+    "oocdate",
+    "oocnotes",
+    "instdate1",
+    "oracleid",
+    "active",
+    "remarks",
+    "fireuseonly",
+    "status",
+    "compression",
+    "adddttm",
+    "addby",
+    "modby",
+    "feature_id",
+    "unitid",
+    "geom",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "water"
+   ],
+   "modified": "2026-11-02T13:34:42+00:00",
+   "records_count": 6611,
+   "title": "Water hydrants"
+  },
+  "water-pressure-zones": {
+   "fields": [
+    "pressure_zone_number",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "water"
+   ],
+   "modified": "2026-08-17T13:36:10+00:00",
+   "records_count": 9,
+   "title": "Water pressure zones"
+  },
+  "water-transmission-mains": {
+   "fields": [
+    "geom",
+    "diameter_mm",
+    "installation_date",
+    "lining_material",
+    "material",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "water"
+   ],
+   "modified": "2026-10-05T13:35:56+00:00",
+   "records_count": 3023,
+   "title": "Water transmission mains"
+  },
+  "wayfinding-map-stands": {
+   "fields": [
+    "key",
+    "zone",
+    "installation",
+    "location_1",
+    "location_2",
+    "orientation",
+    "bia",
+    "geo_local_area",
+    "geom",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2020-11-19T11:54:46+00:00",
+   "records_count": 216,
+   "title": "Wayfinding map stands"
+  },
+  "web-cam-url-links": {
+   "fields": [
+    "geom",
+    "mapid",
+    "name",
+    "url",
+    "geo_local_area",
+    "geo_point_2d"
+   ],
+   "keyword": null,
+   "modified": "2026-09-21T13:47:24+00:00",
+   "records_count": 219,
+   "title": "Web Cam (URL links)"
+  },
+  "workforce-pay-rates-and-gender": {
+   "fields": [
+    "year",
+    "exempt_union",
+    "classification",
+    "position_title",
+    "data_category",
+    "minimum_hourly_rate",
+    "maximum_hourly_rate",
+    "female",
+    "male",
+    "total"
+   ],
+   "keyword": null,
+   "modified": "2023-05-23T22:25:44+00:00",
+   "records_count": 6344,
+   "title": "Workforce pay rates and sex"
+  },
+  "zoning-districts-and-labels": {
+   "fields": [
+    "geom",
+    "object_id",
+    "zoning_classification",
+    "zoning_category",
+    "zoning_district",
+    "cd_1_number",
+    "geo_point_2d"
+   ],
+   "keyword": [
+    "district and area"
+   ],
+   "modified": "2026-06-29T13:47:51+00:00",
+   "records_count": 1621,
+   "title": "Zoning districts and labels"
+  }
+ },
+ "errors": []
+}

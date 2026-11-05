@@ -1,0 +1,83 @@
+{
+ "title": "Property parcel polygons",
+ "fields": [
+  {
+   "name": "civic_number",
+   "type": "text",
+   "label": "CIVIC_NUMBER"
+  },
+  {
+   "name": "streetname",
+   "type": "text",
+   "label": "STREETNAME"
+  },
+  {
+   "name": "tax_coord",
+   "type": "text",
+   "label": "TAX_COORD"
+  },
+  {
+   "name": "site_id",
+   "type": "text",
+   "label": "SITE_ID"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "civic_number": "6446",
+   "streetname": "MARGUERITE ST",
+   "tax_coord": "12276572",
+   "site_id": "011139251",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.14483659733393, 49.22754655644384], [-123.14454362428052, 49.22754188605294], [-123.14431218533568, 49.227538235485724], [-123.14430479954538, 4"
+   },
+   "geo_point_2d": {
+    "lon": -123.14457073275952,
+    "lat": 49.227642022656696
+   }
+  },
+  {
+   "civic_number": "6112",
+   "streetname": "MARGUERITE ST",
+   "tax_coord": "12275806",
+   "site_id": "002436507",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.14473281767324, 49.230390988394845], [-123.14473268031966, 49.23039098856693], [-123.14420810213372, 49.23038309911155], [-123.14420033357092, 4"
+   },
+   "geo_point_2d": {
+    "lon": -123.14446657380537,
+    "lat": 49.2304918417226
+   }
+  },
+  {
+   "civic_number": "6162",
+   "streetname": "MARGUERITE ST",
+   "tax_coord": "12275826",
+   "site_id": "011202084",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.14474820039636, 49.2299722397582], [-123.14422347427119, 49.22996390979107], [-123.1442157195706, 49.23017350903871], [-123.14474043417916, 49.2"
+   },
+   "geo_point_2d": {
+    "lon": -123.14448195716707,
+    "lat": 49.23007287402867
+   }
+  }
+ ],
+ "total_count": 99685
+}

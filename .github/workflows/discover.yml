@@ -1,0 +1,24 @@
+name: Discover data schema
+# Dev tool: re-run manually to refresh data/_discovery/ (schema of City datasets).
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: discover-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python scraper/discover.py
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/_discovery
+          git diff --cached --quiet || git commit -m "Update schema discovery report"
+          git push origin HEAD:${GITHUB_REF_NAME}

@@ -1,0 +1,733 @@
+{
+ "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Licenses_and_Permits/MapServer/35": {
+  "name": "Building Water Treatment Systems",
+  "fields": [
+   [
+    "OBJECTID",
+    "esriFieldTypeOID",
+    "OBJECTID"
+   ],
+   [
+    "Shape",
+    "esriFieldTypeGeometry",
+    "SHAPE"
+   ],
+   [
+    "PERMIT_NUMBER",
+    "esriFieldTypeString",
+    "Permit Number"
+   ],
+   [
+    "SYSTEM_STATUS",
+    "esriFieldTypeString",
+    "System Status"
+   ],
+   [
+    "APPLICATION_ADDRESS",
+    "esriFieldTypeString",
+    "Application Address"
+   ],
+   [
+    "NON_JURSIDICTIONAL_EQUIPMENT",
+    "esriFieldTypeString",
+    "Non Jurisdictional Equipment"
+   ],
+   [
+    "MARKER_COLOUR",
+    "esriFieldTypeString",
+    "Marker Colour"
+   ],
+   [
+    "WATER_SYSTEM_TYPE",
+    "esriFieldTypeString",
+    "Water System Type"
+   ],
+   [
+    "EOCP_CERTIFICATION_NUMBER",
+    "esriFieldTypeString",
+    "EOCP Certification Number"
+   ],
+   [
+    "LATEST_WQ_REP_DATE",
+    "esriFieldTypeDate",
+    "Latest Water Quality Report Date"
+   ],
+   [
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Legionella Pneumo Culture Result"
+   ],
+   [
+    "LATEST_WQ_REP_MEAN_SYS_TEMP",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Mean System Temperature"
+   ],
+   [
+    "LATEST_WQ_REP_MEAN_TURBIDITY",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Mean Turbidity"
+   ],
+   [
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Ecoli Count Result"
+   ],
+   [
+    "LANDCOORDINATE",
+    "esriFieldTypeString",
+    "Land Coordinate"
+   ],
+   [
+    "PARCELNUMBER",
+    "esriFieldTypeString",
+    "Parcel Number"
+   ]
+  ],
+  "maxRecordCount": 2000,
+  "count": 256,
+  "samples": [
+   {
+    "OBJECTID": 13754,
+    "PERMIT_NUMBER": "OP-2019-00003",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "638 BEACH CRESCENT, Vancouver, BC V6Z 3H4",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Building Water Treatment System",
+    "EOCP_CERTIFICATION_NUMBER": "1001379",
+    "LATEST_WQ_REP_DATE": -2209161600000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13755,
+    "PERMIT_NUMBER": "OP-2019-00004",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "588 BROUGHTON STREET, Vancouver, BC V6G 3E3",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Building Water Treatment System",
+    "EOCP_CERTIFICATION_NUMBER": "1001379",
+    "LATEST_WQ_REP_DATE": -2209161600000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13756,
+    "PERMIT_NUMBER": "OP-2019-00007",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "1099 MARINASIDE CRESCENT, Vancouver, BC V6Z 2Z3",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Building Water Treatment System",
+    "EOCP_CERTIFICATION_NUMBER": "1001379",
+    "LATEST_WQ_REP_DATE": -2209161600000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13757,
+    "PERMIT_NUMBER": "OP-2019-00009",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "256 E 2ND AVENUE, Vancouver, BC V5T 0A7",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Building Water Treatment System",
+    "EOCP_CERTIFICATION_NUMBER": "1001379",
+    "LATEST_WQ_REP_DATE": -2209161600000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13758,
+    "PERMIT_NUMBER": "OP-2019-00011",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "1050 BURRARD STREET, Vancouver, BC V6Z 2S3",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Building Water Treatment System",
+    "EOCP_CERTIFICATION_NUMBER": "1001379",
+    "LATEST_WQ_REP_DATE": -2209161600000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   }
+  ],
+  "distinct": {
+   "SYSTEM_STATUS": [
+    "Active"
+   ],
+   "WATER_SYSTEM_TYPE": [
+    "Building Water Treatment System"
+   ]
+  }
+ },
+ "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Licenses_and_Permits/MapServer/33": {
+  "name": "Cooling Tower",
+  "fields": [
+   [
+    "OBJECTID",
+    "esriFieldTypeOID",
+    "OBJECTID"
+   ],
+   [
+    "Shape",
+    "esriFieldTypeGeometry",
+    "SHAPE"
+   ],
+   [
+    "PERMIT_NUMBER",
+    "esriFieldTypeString",
+    "Permit Number"
+   ],
+   [
+    "SYSTEM_STATUS",
+    "esriFieldTypeString",
+    "System Status"
+   ],
+   [
+    "APPLICATION_ADDRESS",
+    "esriFieldTypeString",
+    "Application Address"
+   ],
+   [
+    "NON_JURSIDICTIONAL_EQUIPMENT",
+    "esriFieldTypeString",
+    "Non Jurisdictional Equipment"
+   ],
+   [
+    "MARKER_COLOUR",
+    "esriFieldTypeString",
+    "Marker Colour"
+   ],
+   [
+    "WATER_SYSTEM_TYPE",
+    "esriFieldTypeString",
+    "Water System Type"
+   ],
+   [
+    "EOCP_CERTIFICATION_NUMBER",
+    "esriFieldTypeString",
+    "EOCP Certification Number"
+   ],
+   [
+    "LATEST_WQ_REP_DATE",
+    "esriFieldTypeDate",
+    "Latest Water Quality Report Date"
+   ],
+   [
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Legionella Pneumo Culture Result"
+   ],
+   [
+    "LATEST_WQ_REP_MEAN_SYS_TEMP",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Mean System Temperature"
+   ],
+   [
+    "LATEST_WQ_REP_MEAN_TURBIDITY",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Mean Turbidity"
+   ],
+   [
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Ecoli Count Result"
+   ],
+   [
+    "LANDCOORDINATE",
+    "esriFieldTypeString",
+    "Land Coordinate"
+   ],
+   [
+    "PARCELNUMBER",
+    "esriFieldTypeString",
+    "Parcel Number"
+   ]
+  ],
+  "maxRecordCount": 2000,
+  "count": 672,
+  "samples": [
+   {
+    "OBJECTID": 13759,
+    "PERMIT_NUMBER": "OP-2019-00012",
+    "SYSTEM_STATUS": "Inactive",
+    "APPLICATION_ADDRESS": "535 THURLOW STREET, Vancouver, BC V6E 3L2",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Cooling Tower",
+    "EOCP_CERTIFICATION_NUMBER": "1001618",
+    "LATEST_WQ_REP_DATE": 1761868800000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13792,
+    "PERMIT_NUMBER": "OP-2019-00082",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "600 W 10TH AVENUE, Vancouver, BC",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Cooling Tower",
+    "EOCP_CERTIFICATION_NUMBER": "1001128",
+    "LATEST_WQ_REP_DATE": 1759968000000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13793,
+    "PERMIT_NUMBER": "OP-2019-00082",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "600 W 10TH AVENUE, Vancouver, BC",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Cooling Tower",
+    "EOCP_CERTIFICATION_NUMBER": "1001128",
+    "LATEST_WQ_REP_DATE": 1759968000000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13806,
+    "PERMIT_NUMBER": "OP-2020-00005",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "750 W BROADWAY, Vancouver, BC V5Z 1G8",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Cooling Tower",
+    "EOCP_CERTIFICATION_NUMBER": "ASSE 59863",
+    "LATEST_WQ_REP_DATE": 1759881600000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13807,
+    "PERMIT_NUMBER": "OP-2019-00109",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "515 W 10TH AVENUE, Vancouver, BC V5Z 4A8",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Cooling Tower",
+    "EOCP_CERTIFICATION_NUMBER": "1001336",
+    "LATEST_WQ_REP_DATE": 1757030400000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   }
+  ],
+  "distinct": {
+   "SYSTEM_STATUS": [
+    "Inactive",
+    "Active"
+   ],
+   "WATER_SYSTEM_TYPE": [
+    "Cooling Tower"
+   ]
+  }
+ },
+ "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Licenses_and_Permits/MapServer/34": {
+  "name": "Decorative Water Feature",
+  "fields": [
+   [
+    "OBJECTID",
+    "esriFieldTypeOID",
+    "OBJECTID"
+   ],
+   [
+    "Shape",
+    "esriFieldTypeGeometry",
+    "SHAPE"
+   ],
+   [
+    "PERMIT_NUMBER",
+    "esriFieldTypeString",
+    "Permit Number"
+   ],
+   [
+    "SYSTEM_STATUS",
+    "esriFieldTypeString",
+    "System Status"
+   ],
+   [
+    "APPLICATION_ADDRESS",
+    "esriFieldTypeString",
+    "Application Address"
+   ],
+   [
+    "NON_JURSIDICTIONAL_EQUIPMENT",
+    "esriFieldTypeString",
+    "Non Jurisdictional Equipment"
+   ],
+   [
+    "MARKER_COLOUR",
+    "esriFieldTypeString",
+    "Marker Colour"
+   ],
+   [
+    "WATER_SYSTEM_TYPE",
+    "esriFieldTypeString",
+    "Water System Type"
+   ],
+   [
+    "EOCP_CERTIFICATION_NUMBER",
+    "esriFieldTypeString",
+    "EOCP Certification Number"
+   ],
+   [
+    "LATEST_WQ_REP_DATE",
+    "esriFieldTypeDate",
+    "Latest Water Quality Report Date"
+   ],
+   [
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Legionella Pneumo Culture Result"
+   ],
+   [
+    "LATEST_WQ_REP_MEAN_SYS_TEMP",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Mean System Temperature"
+   ],
+   [
+    "LATEST_WQ_REP_MEAN_TURBIDITY",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Mean Turbidity"
+   ],
+   [
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Ecoli Count Result"
+   ],
+   [
+    "LANDCOORDINATE",
+    "esriFieldTypeString",
+    "Land Coordinate"
+   ],
+   [
+    "PARCELNUMBER",
+    "esriFieldTypeString",
+    "Parcel Number"
+   ]
+  ],
+  "maxRecordCount": 2000,
+  "count": 279,
+  "samples": [
+   {
+    "OBJECTID": 13811,
+    "PERMIT_NUMBER": "OP-2020-00011",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "550 BURRARD STREET, Vancouver, BC V6C 2B5",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Decorative Water Feature",
+    "EOCP_CERTIFICATION_NUMBER": "1001342",
+    "LATEST_WQ_REP_DATE": 1756339200000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13812,
+    "PERMIT_NUMBER": "OP-2020-00011",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "550 BURRARD STREET, Vancouver, BC V6C 2B5",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Decorative Water Feature",
+    "EOCP_CERTIFICATION_NUMBER": "1001342",
+    "LATEST_WQ_REP_DATE": 1756339200000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13887,
+    "PERMIT_NUMBER": "OP-2020-00129",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "1128 ALBERNI STREET, Vancouver, BC V6E 4R6",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Decorative Water Feature",
+    "EOCP_CERTIFICATION_NUMBER": "1001336",
+    "LATEST_WQ_REP_DATE": 1757548800000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13909,
+    "PERMIT_NUMBER": "OP-2020-00177",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "1075 W GEORGIA STREET, Vancouver, BC V6E 3C9",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Decorative Water Feature",
+    "EOCP_CERTIFICATION_NUMBER": "ASSE 50103",
+    "LATEST_WQ_REP_DATE": 1753401600000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13913,
+    "PERMIT_NUMBER": "OP-2020-00184",
+    "SYSTEM_STATUS": "Inactive",
+    "APPLICATION_ADDRESS": "1328 MARINASIDE CRESCENT, Vancouver, BC V6Z 3B3",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Decorative Water Feature",
+    "EOCP_CERTIFICATION_NUMBER": "1001128",
+    "LATEST_WQ_REP_DATE": 1698710400000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   }
+  ],
+  "distinct": {
+   "SYSTEM_STATUS": [
+    "Inactive",
+    "Active"
+   ],
+   "WATER_SYSTEM_TYPE": [
+    "Decorative Water Feature"
+   ]
+  }
+ },
+ "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Licenses_and_Permits/MapServer/31": {
+  "name": "Rainwater Harvesting/Alternative Water Systems",
+  "fields": [
+   [
+    "OBJECTID",
+    "esriFieldTypeOID",
+    "OBJECTID"
+   ],
+   [
+    "Shape",
+    "esriFieldTypeGeometry",
+    "SHAPE"
+   ],
+   [
+    "PERMIT_NUMBER",
+    "esriFieldTypeString",
+    "Permit Number"
+   ],
+   [
+    "SYSTEM_STATUS",
+    "esriFieldTypeString",
+    "System Status"
+   ],
+   [
+    "APPLICATION_ADDRESS",
+    "esriFieldTypeString",
+    "Application Address"
+   ],
+   [
+    "NON_JURSIDICTIONAL_EQUIPMENT",
+    "esriFieldTypeString",
+    "Non Jurisdictional Equipment"
+   ],
+   [
+    "MARKER_COLOUR",
+    "esriFieldTypeString",
+    "Marker Colour"
+   ],
+   [
+    "WATER_SYSTEM_TYPE",
+    "esriFieldTypeString",
+    "Water System Type"
+   ],
+   [
+    "EOCP_CERTIFICATION_NUMBER",
+    "esriFieldTypeString",
+    "EOCP Certification Number"
+   ],
+   [
+    "LATEST_WQ_REP_DATE",
+    "esriFieldTypeDate",
+    "Latest Water Quality Report Date"
+   ],
+   [
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Legionella Pneumo Culture Result"
+   ],
+   [
+    "LATEST_WQ_REP_MEAN_SYS_TEMP",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Mean System Temperature"
+   ],
+   [
+    "LATEST_WQ_REP_MEAN_TURBIDITY",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Mean Turbidity"
+   ],
+   [
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT",
+    "esriFieldTypeString",
+    "Latest Water Quality Report Ecoli Count Result"
+   ],
+   [
+    "LANDCOORDINATE",
+    "esriFieldTypeString",
+    "Land Coordinate"
+   ],
+   [
+    "PARCELNUMBER",
+    "esriFieldTypeString",
+    "Parcel Number"
+   ]
+  ],
+  "maxRecordCount": 2000,
+  "count": 41,
+  "samples": [
+   {
+    "OBJECTID": 13817,
+    "PERMIT_NUMBER": "OP-2020-00023",
+    "SYSTEM_STATUS": "Inactive",
+    "APPLICATION_ADDRESS": "999 W HASTINGS STREET, Vancouver, BC V6C 2W2",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Rainwater Harvesting/Alternative Water Systems",
+    "EOCP_CERTIFICATION_NUMBER": "1001342",
+    "LATEST_WQ_REP_DATE": 1753142400000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "0",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13840,
+    "PERMIT_NUMBER": "OP-2020-00030",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "701 NATIONAL AVENUE, Vancouver, BC",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Rainwater Harvesting/Alternative Water Systems",
+    "EOCP_CERTIFICATION_NUMBER": "ASSE 50342",
+    "LATEST_WQ_REP_DATE": 1759968000000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "14.00",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "1.71",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "28",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13903,
+    "PERMIT_NUMBER": "OP-2020-00165",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "1625 MANITOBA STREET, Vancouver, BC V5Y 0B8",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Rainwater Harvesting/Alternative Water Systems",
+    "EOCP_CERTIFICATION_NUMBER": "1001342",
+    "LATEST_WQ_REP_DATE": 1750204800000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "0",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13904,
+    "PERMIT_NUMBER": "OP-2020-00168",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "1633 ONTARIO STREET, Vancouver, BC V5Y 0C2",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Rainwater Harvesting/Alternative Water Systems",
+    "EOCP_CERTIFICATION_NUMBER": "1001342",
+    "LATEST_WQ_REP_DATE": 1750204800000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "0",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   },
+   {
+    "OBJECTID": 13930,
+    "PERMIT_NUMBER": "OP-2020-00211",
+    "SYSTEM_STATUS": "Active",
+    "APPLICATION_ADDRESS": "510 W GEORGIA STREET, Vancouver, BC V6B 0M3",
+    "NON_JURSIDICTIONAL_EQUIPMENT": "N",
+    "MARKER_COLOUR": "blue",
+    "WATER_SYSTEM_TYPE": "Rainwater Harvesting/Alternative Water Systems",
+    "EOCP_CERTIFICATION_NUMBER": "ASSE 50103",
+    "LATEST_WQ_REP_DATE": 1759795200000,
+    "LATEST_WQ_REP_LEGIO_PNE_RSLT": "0",
+    "LATEST_WQ_REP_MEAN_SYS_TEMP": "",
+    "LATEST_WQ_REP_MEAN_TURBIDITY": "0.19",
+    "LATEST_WQ_REP_ECOL_COUNT_RSLT": "0",
+    "LANDCOORDINATE": null,
+    "PARCELNUMBER": null
+   }
+  ],
+  "distinct": {
+   "SYSTEM_STATUS": [
+    "Inactive",
+    "Active"
+   ],
+   "WATER_SYSTEM_TYPE": [
+    "Rainwater Harvesting/Alternative Water Systems"
+   ]
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "title": "Building Footprints 2015",
+ "fields": [
+  {
+   "name": "object_id",
+   "type": "text",
+   "label": "Object ID"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "object_id": "6592846",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.14947422862996, 49.25888671897723], [-123.14945371681334, 49.25888674551214], [-123.14945405491764, 49.25892361826241], [-123.14935965568083, 49"
+   },
+   "geo_point_2d": {
+    "lon": -123.14938356963056,
+    "lat": 49.2588314023078
+   }
+  },
+  {
+   "object_id": "6592853",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.149464888218, 49.258652186206625], [-123.14946262110315, 49.25872062654112], [-123.14941593048223, 49.2587199673147], [-123.14941602851592, 49.2"
+   },
+   "geo_point_2d": {
+    "lon": -123.1494351153979,
+    "lat": 49.258685531960715
+   }
+  },
+  {
+   "object_id": "6592854",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.14934899256244, 49.25865029506222], [-123.14934573704863, 49.25870503875728], [-123.14929677718895, 49.25870384360252], [-123.14930000371561, 49"
+   },
+   "geo_point_2d": {
+    "lon": -123.14932290728379,
+    "lat": 49.25867716838582
+   }
+  }
+ ],
+ "total_count": 154124
+}

@@ -1,0 +1,35 @@
+name: Refresh data
+on:
+  schedule:
+    - cron: "17 10 * * 1"   # Mondays 10:17 UTC (~03:17 Vancouver)
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths: ["scraper/**", ".github/workflows/scrape.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: scrape-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pytest
+      - name: Unit tests
+        run: python -m pytest -q scraper/
+      - name: Build data (atomic; exits non-zero on validation failure)
+        run: python -m scraper.build
+      - name: Commit data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "No data changes"; exit 0; fi
+          git commit -m "Refresh development data ($(date -u +%F))"
+          git push origin HEAD:${GITHUB_REF_NAME}

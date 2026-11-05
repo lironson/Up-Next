@@ -1,0 +1,174 @@
+{
+ "title": "Operating permits - water systems \u2014 water quality reports",
+ "fields": [
+  {
+   "name": "operating_permit_number",
+   "type": "text",
+   "label": "Operating permit number"
+  },
+  {
+   "name": "permit_status",
+   "type": "text",
+   "label": "Permit status"
+  },
+  {
+   "name": "address",
+   "type": "text",
+   "label": "Address"
+  },
+  {
+   "name": "mechanical_system_type",
+   "type": "text",
+   "label": "Mechanical system type"
+  },
+  {
+   "name": "system_report_date",
+   "type": "date",
+   "label": "System report date"
+  },
+  {
+   "name": "system_status",
+   "type": "text",
+   "label": "System status"
+  },
+  {
+   "name": "legionella_pneumophila",
+   "type": "text",
+   "label": "Legionella pneumophila"
+  },
+  {
+   "name": "escherichia_coli",
+   "type": "text",
+   "label": "Escherichia coli"
+  },
+  {
+   "name": "turbidity",
+   "type": "double",
+   "label": "Turbidity"
+  },
+  {
+   "name": "temperature",
+   "type": "double",
+   "label": "Temperature"
+  },
+  {
+   "name": "make_up_water",
+   "type": "text",
+   "label": "Make-up water"
+  },
+  {
+   "name": "make_up_water_units",
+   "type": "text",
+   "label": "Make-up water units"
+  },
+  {
+   "name": "treated_non_potable_water",
+   "type": "text",
+   "label": "Treated non-potable water"
+  },
+  {
+   "name": "treated_non_potable_water_units",
+   "type": "text",
+   "label": "Treated non-potable water units"
+  },
+  {
+   "name": "total_suspended_solids",
+   "type": "text",
+   "label": "Total Suspended Solids"
+  },
+  {
+   "name": "benzene",
+   "type": "text",
+   "label": "Benzene"
+  },
+  {
+   "name": "toluene",
+   "type": "text",
+   "label": "Toluene"
+  },
+  {
+   "name": "ethylbenzene",
+   "type": "text",
+   "label": "Ethylbenzene"
+  },
+  {
+   "name": "xylenes_total",
+   "type": "text",
+   "label": "Xylenes Total"
+  },
+  {
+   "name": "permit_details_link",
+   "type": "text",
+   "label": "Permit details link"
+  }
+ ],
+ "samples": [
+  {
+   "operating_permit_number": "OP-2020-00171",
+   "permit_status": "ISSUED",
+   "address": "667 HOWE STREET, Vancouver, BC V6C 2E5",
+   "mechanical_system_type": "Cooling Tower",
+   "system_report_date": "2024-06-11",
+   "system_status": "Active",
+   "legionella_pneumophila": "0",
+   "escherichia_coli": null,
+   "turbidity": null,
+   "temperature": null,
+   "make_up_water": null,
+   "make_up_water_units": "L",
+   "treated_non_potable_water": null,
+   "treated_non_potable_water_units": "L",
+   "total_suspended_solids": null,
+   "benzene": null,
+   "toluene": null,
+   "ethylbenzene": null,
+   "xylenes_total": null,
+   "permit_details_link": "https://opendata.vancouver.ca/explore/dataset/issued-operating-permits-water-systems-/table/?q=OP-2020-00171"
+  },
+  {
+   "operating_permit_number": "OP-2020-00171",
+   "permit_status": "ISSUED",
+   "address": "667 HOWE STREET, Vancouver, BC V6C 2E5",
+   "mechanical_system_type": "Cooling Tower",
+   "system_report_date": "2024-03-20",
+   "system_status": "Active",
+   "legionella_pneumophila": "0",
+   "escherichia_coli": null,
+   "turbidity": null,
+   "temperature": null,
+   "make_up_water": null,
+   "make_up_water_units": "L",
+   "treated_non_potable_water": null,
+   "treated_non_potable_water_units": "L",
+   "total_suspended_solids": null,
+   "benzene": null,
+   "toluene": null,
+   "ethylbenzene": null,
+   "xylenes_total": null,
+   "permit_details_link": "https://opendata.vancouver.ca/explore/dataset/issued-operating-permits-water-systems-/table/?q=OP-2020-00171"
+  },
+  {
+   "operating_permit_number": "OP-2020-00171",
+   "permit_status": "ISSUED",
+   "address": "667 HOWE STREET, Vancouver, BC V6C 2E5",
+   "mechanical_system_type": "Cooling Tower",
+   "system_report_date": "2024-02-15",
+   "system_status": "Active",
+   "legionella_pneumophila": "0",
+   "escherichia_coli": null,
+   "turbidity": null,
+   "temperature": null,
+   "make_up_water": null,
+   "make_up_water_units": "L",
+   "treated_non_potable_water": null,
+   "treated_non_potable_water_units": "L",
+   "total_suspended_solids": null,
+   "benzene": null,
+   "toluene": null,
+   "ethylbenzene": null,
+   "xylenes_total": null,
+   "permit_details_link": "https://opendata.vancouver.ca/explore/dataset/issued-operating-permits-water-systems-/table/?q=OP-2020-00171"
+  }
+ ],
+ "total_count": 37155
+}
