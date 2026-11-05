@@ -65,7 +65,7 @@ export function existingLayer(ctx) {
     filled: true,
     getElevation: (d) => d.h,
     getFillColor: [170, 178, 190, 80],
-    getLineColor: [90, 98, 110, 140],
+    getLineColor: [90, 98, 110, 90],
     pickable: true,
     autoHighlight: true,
     highlightColor: [255, 255, 255, 90],

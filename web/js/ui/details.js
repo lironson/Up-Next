@@ -9,6 +9,7 @@ export function developmentHtml(p) {
     ['Height', h],
     ['Year', esc(p.year ?? '—')],
     ['Use', esc(p.use || '—')],
+    ['Footprint', p.footprint_source?.startsWith('parcel') ? 'Lot outline (building may be smaller)' : 'Approximate (location only)'],
     ['Source', esc(p.source)],
   ];
   return `<div class="pop">

@@ -117,8 +117,10 @@ document.querySelectorAll('[data-cam]').forEach((b) => b.addEventListener('click
 
 // ---------- address search ----------
 const form = $('#search'), results = $('#results'), status = $('#search-status');
+const pin = new maplibregl.Marker({ color: '#1a6dff' });
 function choose(r, alternatives = []) {
   results.innerHTML = '';
+  pin.setLngLat([r.lon, r.lat]).addTo(map);
   $('#q').value = r.label;
   store.set({ address: r });
   flyTo(r.lon, r.lat);
@@ -146,7 +148,7 @@ form.addEventListener('submit', async (e) => {
       // Nominatim often returns several businesses inside the same building; keep distinct places only.
       const alts = [];
       for (const r of res.slice(1)) {
-        if ([res[0], ...alts].every((x) => distM(x, r) > 40)) alts.push(r);
+        if ([res[0], ...alts].every((x) => x.label !== r.label && distM(x, r) > 40)) alts.push(r);
       }
       choose(res[0], alts);
     }
@@ -173,6 +175,10 @@ async function loadData() {
 }
 
 mountFilters($('#filters'), store);
+if (store.get().address) {
+  pin.setLngLat([store.get().address.lon, store.get().address.lat]).addTo(map);
+  $('#q').value = store.get().address.label;
+}
 $('#panel-toggle').addEventListener('click', () => document.body.classList.toggle('panel-collapsed'));
 map.once('load', async () => {
   await Promise.all([loadData(), loadIndex()]);
