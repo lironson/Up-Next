@@ -126,9 +126,13 @@ def main():
 
     # Targeted layer inspection: fields, counts, samples, distinct values of type-ish fields.
     layers = {}
-    for url in ["https://maps.vancouver.ca/server/rest/services/VanMapViewer/Licenses_and_Permits/MapServer/25",
-                "https://maps.vancouver.ca/server/rest/services/Hosted/BuildingFootprint/FeatureServer/6",
-                "https://maps.vancouver.ca/server/rest/services/Hosted/MultipleBuildings/FeatureServer/0"]:
+    lp = "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Licenses_and_Permits/MapServer"
+    try:
+        lp_layers = [f"{lp}/{l_['id']}" for l_ in get(lp + "/layers?f=json").get("layers", [])
+                     if l_.get("type") == "Feature Layer"]
+    except Exception as e:
+        lp_layers, layers["_lp_error"] = [], str(e)
+    for url in lp_layers:
         li = {}
         try:
             meta = get(url + "?f=json")
