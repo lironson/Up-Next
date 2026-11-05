@@ -7,6 +7,7 @@ for the non-ODS City sites. Stdlib only.
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -39,28 +40,41 @@ def truncate(v, depth=0):
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    catalog = {}
-    for term in TERMS:
-        q = urllib.parse.urlencode({"where": f'search("{term}")', "limit": 100,
-                                    "select": "dataset_id,metas.default.title,metas.default.records_count,metas.default.modified"})
+    catalog, errors, offset = {}, [], 0
+    while True:
         try:
-            for d in get(f"{BASE}/catalog/datasets?{q}").get("results", []):
-                catalog[d["dataset_id"]] = d
-        except Exception as e:  # keep going; record the failure
-            catalog[f"_error_{term}"] = str(e)
+            page = get(f"{BASE}/catalog/datasets?limit=100&offset={offset}")
+        except urllib.error.HTTPError as e:
+            errors.append(f"offset {offset}: {e.code} {e.read()[:500]!r}")
+            break
+        for d in page.get("results", []):
+            m = d.get("metas", {}).get("default", {})
+            catalog[d["dataset_id"]] = {
+                "title": m.get("title"), "records_count": m.get("records_count"),
+                "modified": m.get("modified"), "keyword": m.get("keyword"),
+                "fields": [f.get("name") for f in d.get("fields", [])],
+            }
+        offset += 100
+        if offset >= page.get("total_count", 0) or not page.get("results"):
+            break
     with open(os.path.join(OUT, "catalog.json"), "w") as f:
-        json.dump(catalog, f, indent=1, sort_keys=True)
+        json.dump({"errors": errors, "datasets": catalog}, f, indent=1, sort_keys=True)
 
-    for ds in sorted(k for k in catalog if not k.startswith("_error")):
-        info = {}
+    def relevant(ds, info):
+        hay = " ".join([ds, str(info.get("title")), str(info.get("keyword"))]).lower()
+        return any(t in hay for t in TERMS)
+
+    for ds in sorted(k for k, v in catalog.items() if relevant(k, v)):
+        info = {"title": catalog[ds]["title"]}
         try:
             meta = get(f"{BASE}/catalog/datasets/{ds}")
             info["fields"] = [{k: fl.get(k) for k in ("name", "type", "label")}
                               for fl in meta.get("fields", [])]
-            info["records_count"] = meta.get("metas", {}).get("default", {}).get("records_count")
             recs = get(f"{BASE}/catalog/datasets/{ds}/records?limit=3")
             info["samples"] = truncate(recs.get("results", []))
             info["total_count"] = recs.get("total_count")
+        except urllib.error.HTTPError as e:
+            info["error"] = f"{e.code} {e.read()[:500]!r}"
         except Exception as e:
             info["error"] = str(e)
         with open(os.path.join(OUT, f"{ds}.json"), "w") as f:
@@ -76,7 +90,7 @@ def main():
             probes[url] = {"error": str(e)}
     with open(os.path.join(OUT, "probes.json"), "w") as f:
         json.dump(probes, f, indent=1)
-    print(f"datasets: {len([k for k in catalog if not k.startswith('_error')])}")
+    print(f"datasets: {len(catalog)} errors: {errors}")
 
 
 if __name__ == "__main__":
