@@ -81,13 +81,48 @@ def main():
             json.dump(info, f, indent=1)
 
     probes = {}
-    for url in ["https://rezoning.vancouver.ca/", "https://rezoning.vancouver.ca/applications/",
-                "https://development.vancouver.ca/", "https://development.vancouver.ca/applications"]:
+    honest_ua = {"User-Agent": "Mozilla/5.0 (compatible; up-next/1.0; +https://github.com/lironson/up-next)"}
+    for url in ["https://development.vancouver.ca/", "https://rezoning.vancouver.ca/"]:
         try:
-            status, body = get(url, raw=True)
-            probes[url] = {"status": status, "head": body[:4000]}
+            req = urllib.request.Request(url, headers=honest_ua)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                probes[url] = {"status": r.status, "head": r.read(6000).decode("utf-8", "replace")}
+        except urllib.error.HTTPError as e:
+            probes[url] = {"status": e.code, "body": e.read(800).decode("utf-8", "replace"),
+                           "server": e.headers.get("server"), "headers": dict(e.headers)}
         except Exception as e:
             probes[url] = {"error": str(e)}
+
+    # Official City ArcGIS REST directories (VanMap). Walk one folder level, list layer names.
+    arc = {}
+    for root in ["https://maps.vancouver.ca/server/rest/services",
+                 "https://maps.vancouver.ca/arcgis/rest/services",
+                 "https://gis.vancouver.ca/arcgis/rest/services",
+                 "https://maps.vancouver.ca/gis/rest/services"]:
+        try:
+            top = get(root + "?f=json")
+        except Exception as e:
+            arc[root] = {"error": str(e)}
+            continue
+        entry = {"folders": top.get("folders"), "services": top.get("services"), "layers": {}}
+        svcs = [(root, s_) for s_ in top.get("services", [])]
+        for folder in (top.get("folders") or [])[:40]:
+            try:
+                sub = get(f"{root}/{folder}?f=json")
+                svcs += [(root, s_) for s_ in sub.get("services", [])]
+            except Exception as e:
+                entry["layers"][folder] = str(e)
+        for base, sv in svcs[:200]:
+            if sv.get("type") not in ("MapServer", "FeatureServer"):
+                continue
+            url = f"{base}/{sv['name']}/{sv['type']}"
+            try:
+                info = get(url + "?f=json")
+                entry["layers"][url] = [(l.get("id"), l.get("name")) for l in info.get("layers", [])]
+            except Exception as e:
+                entry["layers"][url] = str(e)
+        arc[root] = entry
+    probes["arcgis"] = arc
     with open(os.path.join(OUT, "probes.json"), "w") as f:
         json.dump(probes, f, indent=1)
     print(f"datasets: {len(catalog)} errors: {errors}")
