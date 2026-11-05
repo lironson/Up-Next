@@ -64,3 +64,34 @@ class GridIndex:
             if point_in_ring(lon, lat, ring):
                 return ring, payload
         return None
+
+
+def dist_to_ring_m(lon, lat, ring):
+    """Distance (m) from point to the ring boundary, local equirectangular projection."""
+    kx, ky = 111320 * math.cos(math.radians(lat)), 110540
+    best = float("inf")
+    for i in range(len(ring) - 1):
+        ax, ay = (ring[i][0] - lon) * kx, (ring[i][1] - lat) * ky
+        bx, by = (ring[i + 1][0] - lon) * kx, (ring[i + 1][1] - lat) * ky
+        dx, dy = bx - ax, by - ay
+        L = dx * dx + dy * dy
+        t = 0.0 if L == 0 else max(0.0, min(1.0, -(ax * dx + ay * dy) / L))
+        best = min(best, math.hypot(ax + t * dx, ay + t * dy))
+    return best
+
+
+def nearest(index, lon, lat, max_m):
+    """Nearest ring in a GridIndex within max_m (checks the 3x3 neighbouring cells)."""
+    c = index.cell
+    gx, gy = math.floor(lon / c), math.floor(lat / c)
+    best, seen = None, set()
+    for x in (gx - 1, gx, gx + 1):
+        for y in (gy - 1, gy, gy + 1):
+            for ring, payload in index.cells.get((x, y), []):
+                if id(ring) in seen:
+                    continue
+                seen.add(id(ring))
+                d = dist_to_ring_m(lon, lat, ring)
+                if d <= max_m and (best is None or d < best[0]):
+                    best = (d, ring, payload)
+    return best

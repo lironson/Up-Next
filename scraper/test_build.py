@@ -1,7 +1,7 @@
 from scraper.build import validate_developments
 from scraper.normalize import make_record
 from scraper.sources import building_permits
-from scraper.geo import point_in_ring, ring_area_m2, GridIndex
+from scraper.geo import point_in_ring, ring_area_m2, GridIndex, nearest
 
 
 def _rec(i, **kw):
@@ -43,3 +43,11 @@ def test_geo():
     assert 10000 < ring_area_m2(sq) < 13000
     g = GridIndex(); g.add(sq, "a")
     assert g.find(0.0005, 0.0005)[1] == "a" and g.find(0.5, 0.5) is None
+
+
+def test_nearest_parcel_snap():
+    sq = [[0, 0], [0.0002, 0], [0.0002, 0.0002], [0, 0.0002], [0, 0]]
+    g = GridIndex(); g.add(sq, "lot")
+    hit = nearest(g, 0.0003, 0.0001, 15)   # ~11 m east of the lot edge (equator)
+    assert hit and hit[2] == "lot" and 10 < hit[0] < 12
+    assert nearest(g, 0.001, 0.0001, 15) is None

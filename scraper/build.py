@@ -15,7 +15,7 @@ from collections import Counter
 from datetime import datetime, timezone
 
 from .io_utils import commit, in_vancouver, read_json, rollback, write_json_atomic
-from .normalize import SCHEMA_VERSION, STAGES, MIN_STOREYS
+from .normalize import PARSER_VERSION, SCHEMA_VERSION, STAGES, MIN_STOREYS
 from .sources import building_permits, footprints, parcels, view_cones
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
@@ -114,7 +114,9 @@ def main(argv):
     staged, bld_tmp = [], None
     try:
         feats, status = build_developments(prev_feats)
-        errs = validate_developments(feats, len(prev_feats))
+        prev_meta = read_json(META, {}) or {}
+        rules_changed = prev_meta.get("parser_version") != PARSER_VERSION
+        errs = validate_developments(feats, 0 if rules_changed else len(prev_feats))
         if errs:
             raise ValueError("development validation failed:\n  " + "\n  ".join(errs[:20]))
         staged.append(write_json_atomic(DEV, {"type": "FeatureCollection", "features": feats}, compact=True))
@@ -134,6 +136,7 @@ def main(argv):
         props = [f["properties"] for f in feats]
         meta = {
             "schema_version": SCHEMA_VERSION,
+            "parser_version": PARSER_VERSION,
             "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "min_storeys": MIN_STOREYS,
             "count": len(feats),
@@ -144,7 +147,7 @@ def main(argv):
             "sources": status,
         }
         # meta changes every run (timestamp); only stage it when data actually changed
-        data_changed = (json.dumps(feats, sort_keys=True) != json.dumps(prev_feats, sort_keys=True)) or bld_tmp
+        data_changed = (json.dumps(feats, sort_keys=True) != json.dumps(prev_feats, sort_keys=True)) or bld_tmp or rules_changed
         if data_changed or not os.path.exists(META):
             staged.append(write_json_atomic(META, meta))
     except Exception:

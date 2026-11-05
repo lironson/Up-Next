@@ -2,6 +2,9 @@
 import re
 
 SCHEMA_VERSION = 1
+# Bump when parsing/filter rules change: the next build may then legitimately shrink
+# by more than the drop guard allows (see build.py).
+PARSER_VERSION = 2
 STAGES = ["Application", "Under Review", "Approved", "Issued",
           "Under Construction", "Completed", "Refused/Withdrawn"]
 MIN_STOREYS = 5  # product focus: buildings > 4 storeys
@@ -22,9 +25,9 @@ _WORDS = {w: i for i, w in enumerate(
     "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen "
     "fifteen sixteen seventeen eighteen nineteen twenty".split())}
 _WORDS.update({"thirty": 30, "forty": 40, "fifty": 50, "sixty": 60})
-_NUM = r"(\d{1,3}|" + "|".join(sorted(_WORDS, key=len, reverse=True)) + r")"
+_NUM = r"(?<![\d.,/])(\d{1,3}(?![.,/]\d)|" + "|".join(sorted(_WORDS, key=len, reverse=True)) + r")"
 _STOREY_RE = re.compile(_NUM + r"(?:\s*\(\d{1,3}\))?\s*[- ]?\s*(?:storey|story|stories|storeys|floors?|levels?)\b", re.I)
-_RANGE_RE = re.compile(r"(\d{1,3})\s*(?:-|to|and)\s*(\d{1,3})\s*[- ]?\s*(?:storey|story|stories|storeys)", re.I)
+_RANGE_RE = re.compile(r"(?<![\d.,/])(\d{1,3})\s*(?:-|to|and)\s*(\d{1,3})\s*[- ]?\s*(?:storey|story|stories|storeys)", re.I)
 _EXCLUDE_CONTEXT = re.compile(r"(underground|below grade|parking|basement|sub-?surface|podium)\s*$", re.I)
 
 

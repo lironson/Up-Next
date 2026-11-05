@@ -42,3 +42,10 @@ def test_make_record_filters_and_estimates():
     assert r["geometry"]["type"] == "Point"
     r = make_record(**kw, storeys=10, height_m=33.0)
     assert r["properties"]["height_estimated"] is False
+
+
+def test_storey_decimals_not_misread():
+    assert parse_storeys("To construct a 2.5 storey two-family dwelling") is None or parse_storeys("To construct a 2.5 storey two-family dwelling") < 5
+    assert parse_storeys("a 1.5 storey laneway house") in (None, 1)
+    assert parse_storeys("a 1 \u00bd storey building") in (None, 1)
+    assert parse_storeys("a 12.5 m high, 6-storey building") == 6
