@@ -123,6 +123,36 @@ def main():
                 entry["layers"][url] = str(e)
         arc[root] = entry
     probes["arcgis"] = arc
+
+    # Targeted layer inspection: fields, counts, samples, distinct values of type-ish fields.
+    layers = {}
+    for url in ["https://maps.vancouver.ca/server/rest/services/VanMapViewer/Licenses_and_Permits/MapServer/25",
+                "https://maps.vancouver.ca/server/rest/services/Hosted/BuildingFootprint/FeatureServer/6",
+                "https://maps.vancouver.ca/server/rest/services/Hosted/MultipleBuildings/FeatureServer/0"]:
+        li = {}
+        try:
+            meta = get(url + "?f=json")
+            li["name"] = meta.get("name")
+            li["fields"] = [(f_.get("name"), f_.get("type"), f_.get("alias")) for f_ in meta.get("fields") or []]
+            li["maxRecordCount"] = meta.get("maxRecordCount")
+            li["count"] = get(url + "/query?where=1%3D1&returnCountOnly=true&f=json").get("count")
+            li["samples"] = [ft.get("attributes") for ft in get(
+                url + "/query?where=1%3D1&outFields=*&resultRecordCount=5&returnGeometry=false&f=json"
+            ).get("features", [])]
+            for f_ in li["fields"]:
+                n = (f_[0] or "").lower()
+                if f_[1] == "esriFieldTypeString" and any(w in n for w in ("type", "status", "categ", "class", "work", "stage")):
+                    q = urllib.parse.urlencode({"where": "1=1", "outFields": f_[0], "returnDistinctValues": "true",
+                                                "returnGeometry": "false", "f": "json"})
+                    vals = get(f"{url}/query?{q}").get("features", [])
+                    li.setdefault("distinct", {})[f_[0]] = [v["attributes"].get(f_[0]) for v in vals][:80]
+        except urllib.error.HTTPError as e:
+            li["error"] = f"{e.code} {e.read(300)!r}"
+        except Exception as e:
+            li["error"] = str(e)
+        layers[url] = li
+    with open(os.path.join(OUT, "arcgis_layers.json"), "w") as f:
+        json.dump(layers, f, indent=1, default=str)
     with open(os.path.join(OUT, "probes.json"), "w") as f:
         json.dump(probes, f, indent=1)
     print(f"datasets: {len(catalog)} errors: {errors}")
