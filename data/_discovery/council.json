@@ -1,0 +1,31 @@
+{
+ "https://council.vancouver.ca/": {
+  "status": 403,
+  "server": "cloudflare",
+  "error": null,
+  "n_links": 0,
+  "interesting_links": [],
+  "head_text": "Just a moment... <meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-5bYtUPPPe3y9xqawm5iQQu&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges",
+  "second_level": {}
+ },
+ "https://pub-vancouver.escribemeetings.com/": {
+  "status": null,
+  "server": null,
+  "error": "<urlopen error [Errno -5] No address associated with hostname>",
+  "n_links": 0,
+  "interesting_links": [],
+  "head_text": "",
+  "second_level": {}
+ },
+ "https://vancouver.ca/your-government/council-meetings.aspx": {
+  "status": 403,
+  "server": "cloudflare",
+  "error": null,
+  "n_links": 0,
+  "interesting_links": [],
+  "head_text": "Just a moment... <meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-ZOB9lQHCE1HvZWYJP6gYfi&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges",
+  "second_level": {}
+ },
+ "sample_agenda_candidates": [],
+ "sample_minutes_candidates": []
+}
