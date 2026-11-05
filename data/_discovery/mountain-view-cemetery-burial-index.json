@@ -64,66 +64,66 @@
  ],
  "samples": [
   {
-   "personid": "f6c2823b-f6b0-4de0-a4fc-726626bc2eae",
-   "lastname": "PARSONS",
-   "firstname": "Leonard",
+   "personid": "25cd82ea-0719-4232-9a62-52b761b02826",
+   "lastname": "PODOLSKAYA",
+   "firstname": "Valya",
    "maidenname": null,
    "alias": null,
-   "dateofdeath": "1945-11-18",
-   "dateinterred": "1945-11-24",
-   "referencenumberinter": "04419C",
-   "sitefullname": "OLD-4-02-025-0016A",
+   "dateofdeath": "1992-04-01",
+   "dateinterred": "1992-04-03",
+   "referencenumberinter": "38815",
+   "sitefullname": "OLD-1-06-002-0008",
    "geo_local_area": "Riley Park",
    "geom": {
     "type": "Feature",
     "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.09215545654297, 49.23932647705078], \"type\": \"Point\"}, \"properties\": {}}"
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.09104919433594, 49.23748016357422], \"type\": \"Point\"}, \"properties\": {}}"
    },
    "geo_point_2d": {
-    "lon": -123.09215545654297,
-    "lat": 49.23932647705078
+    "lon": -123.09104919433594,
+    "lat": 49.23748016357422
    }
   },
   {
-   "personid": "36721dc7-e401-40f2-ba5f-1e38cd56a213",
-   "lastname": "PARSONS",
-   "firstname": "Margaret",
-   "maidenname": "MULHOLLAND",
-   "alias": "Madge",
-   "dateofdeath": "2001-02-10",
-   "dateinterred": "2001-03-26",
-   "referencenumberinter": "44654",
-   "sitefullname": "MASONIC-*-24A-002-0015",
-   "geo_local_area": "Riley Park",
-   "geom": {
-    "type": "Feature",
-    "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.09245300292969, 49.23458480834961], \"type\": \"Point\"}, \"properties\": {}}"
-   },
-   "geo_point_2d": {
-    "lon": -123.09245300292969,
-    "lat": 49.23458480834961
-   }
-  },
-  {
-   "personid": "3f76fff4-a08d-49d6-940c-7049a7281414",
-   "lastname": "PARSONS",
-   "firstname": "Mary Maria",
-   "maidenname": "HALYFARD",
+   "personid": "656399ac-8e61-4ad0-b52b-b3c4552d06ff",
+   "lastname": "PODOLSKI",
+   "firstname": "William",
+   "maidenname": null,
    "alias": null,
-   "dateofdeath": "1928-04-08",
-   "dateinterred": "1928-04-10",
-   "referencenumberinter": "33236",
-   "sitefullname": "HORNE2-*-03-009-0009",
+   "dateofdeath": "1944-08-08",
+   "dateinterred": "1944-08-14",
+   "referencenumberinter": "01137C",
+   "sitefullname": "HORNE2-*-02-033-0012 (244)",
    "geo_local_area": "Riley Park",
    "geom": {
     "type": "Feature",
     "_truncated": true,
-    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.0933837890625, 49.241722106933594], \"type\": \"Point\"}, \"properties\": {}}"
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.09387969970703, 49.241268157958984], \"type\": \"Point\"}, \"properties\": {}}"
    },
    "geo_point_2d": {
-    "lon": -123.0933837890625,
-    "lat": 49.241722106933594
+    "lon": -123.09387969970703,
+    "lat": 49.241268157958984
+   }
+  },
+  {
+   "personid": "c98155f6-1b48-4728-b8de-1c7ffdee896a",
+   "lastname": "PODOROUSKY",
+   "firstname": "Demitri",
+   "maidenname": null,
+   "alias": null,
+   "dateofdeath": "1976-07-13",
+   "dateinterred": "1976-07-19",
+   "referencenumberinter": "I-00070997",
+   "sitefullname": "JONES-*-27-*-1319",
+   "geo_local_area": "Riley Park",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.09355926513672, 49.23503875732422], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.09355926513672,
+    "lat": 49.23503875732422
    }
   }
  ],
