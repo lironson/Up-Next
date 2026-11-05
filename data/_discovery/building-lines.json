@@ -1,0 +1,51 @@
+{
+ "title": "Building lines",
+ "fields": [
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[-123.17869350129399, 49.25617800760912], [-123.17870802069295, 49.25474113322488]], \"type\": \"LineString\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.17870076099346,
+    "lat": 49.255459570417
+   }
+  },
+  {
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[-123.17871627602399, 49.25383416792834], [-123.17870789716797, 49.25455845840397]], \"type\": \"LineString\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.17871208659598,
+    "lat": 49.254196313166155
+   }
+  },
+  {
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[-123.17842045892517, 49.24985108819082], [-123.17842821616824, 49.24908294634483]], \"type\": \"LineString\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.17842433754672,
+    "lat": 49.249467017267825
+   }
+  }
+ ],
+ "total_count": 1640
+}

@@ -1,0 +1,171 @@
+{
+ "title": "Building footprints 2009",
+ "fields": [
+  {
+   "name": "id",
+   "type": "int",
+   "label": "ID"
+  },
+  {
+   "name": "orient8",
+   "type": "double",
+   "label": "ORIENT8"
+  },
+  {
+   "name": "bldgid",
+   "type": "int",
+   "label": "BLDGID"
+  },
+  {
+   "name": "topelev_m",
+   "type": "double",
+   "label": "TOPELEV_M"
+  },
+  {
+   "name": "med_slope",
+   "type": "int",
+   "label": "MED_SLOPE"
+  },
+  {
+   "name": "baseelev_m",
+   "type": "double",
+   "label": "BASEELEV_M"
+  },
+  {
+   "name": "hgt_agl",
+   "type": "double",
+   "label": "HGT_AGL"
+  },
+  {
+   "name": "rooftype",
+   "type": "text",
+   "label": "ROOFTYPE"
+  },
+  {
+   "name": "area_m2",
+   "type": "double",
+   "label": "AREA_M2"
+  },
+  {
+   "name": "avght_m",
+   "type": "double",
+   "label": "AVGHT_M"
+  },
+  {
+   "name": "minht_m",
+   "type": "double",
+   "label": "MINHT_M"
+  },
+  {
+   "name": "maxht_m",
+   "type": "double",
+   "label": "MAXHT_M"
+  },
+  {
+   "name": "base_m",
+   "type": "double",
+   "label": "BASE_M"
+  },
+  {
+   "name": "len",
+   "type": "double",
+   "label": "LEN"
+  },
+  {
+   "name": "wid",
+   "type": "double",
+   "label": "WID"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "id": 55011,
+   "orient8": -1.40019,
+   "bldgid": 16821,
+   "topelev_m": 56.6,
+   "med_slope": 31,
+   "baseelev_m": 49.5,
+   "hgt_agl": 7.1,
+   "rooftype": "Pitched",
+   "area_m2": 126.187,
+   "avght_m": 6.46,
+   "minht_m": 2.66,
+   "maxht_m": 7.73,
+   "base_m": 49.71,
+   "len": 11.86,
+   "wid": 10.64,
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.12655700667021, 49.21582591278676], [-123.12656081049958, 49.215719246288124], [-123.12670676502044, 49.215721424577], [-123.12670307473142, 49."
+   },
+   "geo_point_2d": {
+    "lon": -123.126631914,
+    "lat": 49.2157736756
+   }
+  },
+  {
+   "id": 55018,
+   "orient8": -1.3001,
+   "bldgid": 26744,
+   "topelev_m": 80.21,
+   "med_slope": 20,
+   "baseelev_m": 77.16,
+   "hgt_agl": 3.05,
+   "rooftype": "Pitched",
+   "area_m2": 74.134,
+   "avght_m": 3.86,
+   "minht_m": 2.44,
+   "maxht_m": 10.56,
+   "base_m": 77.24,
+   "len": 13.16,
+   "wid": 5.63,
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.13342962051863, 49.220865031474496], [-123.13324899880794, 49.220862541934764], [-123.13325056124661, 49.22081190704494], [-123.13343129601061, "
+   },
+   "geo_point_2d": {
+    "lon": -123.13334012,
+    "lat": 49.2208384666
+   }
+  },
+  {
+   "id": 55030,
+   "orient8": -0.299925,
+   "bldgid": 26569,
+   "topelev_m": 82.21,
+   "med_slope": 23,
+   "baseelev_m": 74.05,
+   "hgt_agl": 8.15,
+   "rooftype": "Pitched",
+   "area_m2": 278.101,
+   "avght_m": 7.06,
+   "minht_m": -1.59,
+   "maxht_m": 8.82,
+   "base_m": 74.42,
+   "len": 18.62,
+   "wid": 14.94,
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.13568725522585, 49.22078361907124], [-123.13548218001638, 49.22078323023686], [-123.13548308086193, 49.2206156813197], [-123.13568815562431, 49."
+   },
+   "geo_point_2d": {
+    "lon": -123.135585159,
+    "lat": 49.2206996727
+   }
+  }
+ ],
+ "total_count": 124181
+}

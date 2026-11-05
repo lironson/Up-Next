@@ -1,0 +1,83 @@
+{
+ "title": "Property parcel polygons",
+ "fields": [
+  {
+   "name": "civic_number",
+   "type": "text",
+   "label": "CIVIC_NUMBER"
+  },
+  {
+   "name": "streetname",
+   "type": "text",
+   "label": "STREETNAME"
+  },
+  {
+   "name": "tax_coord",
+   "type": "text",
+   "label": "TAX_COORD"
+  },
+  {
+   "name": "site_id",
+   "type": "text",
+   "label": "SITE_ID"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "civic_number": "1786",
+   "streetname": "E 41ST AV",
+   "tax_coord": "75023964",
+   "site_id": "012488658",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.06915817937667, 49.232224877881926], [-123.0691509918582, 49.23248797536121], [-123.06915099198376, 49.232488065313674], [-123.06935978218222, 4"
+   },
+   "geo_point_2d": {
+    "lon": -123.06925924291191,
+    "lat": 49.232350819082285
+   }
+  },
+  {
+   "civic_number": "1817",
+   "streetname": "E 38TH AV",
+   "tax_coord": "74224311",
+   "site_id": "013165763",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.06821961683399, 49.23535596330959], [-123.0682196172056, 49.235356233166826], [-123.06821110659298, 49.23564005627716], [-123.06821110671684, 49"
+   },
+   "geo_point_2d": {
+    "lon": -123.06828851529508,
+    "lat": 49.23549886846218
+   }
+  },
+  {
+   "civic_number": "1841",
+   "streetname": "E 38TH AV",
+   "tax_coord": "74224321",
+   "site_id": "002678993",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.06792701910454, 49.23535280748365], [-123.06791918027912, 49.2356368910396], [-123.06806479319752, 49.235638514435564], [-123.06807331815011, 49"
+   },
+   "geo_point_2d": {
+    "lon": -123.06799608191888,
+    "lat": 49.235495549181074
+   }
+  }
+ ],
+ "total_count": 99685
+}

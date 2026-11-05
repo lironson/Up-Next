@@ -1,0 +1,107 @@
+{
+ "title": "View cones",
+ "fields": [
+  {
+   "name": "object_id",
+   "type": "int",
+   "label": "Object ID"
+  },
+  {
+   "name": "view_number",
+   "type": "text",
+   "label": "View Number"
+  },
+  {
+   "name": "view_cone_name",
+   "type": "text",
+   "label": "View Cone Name"
+  },
+  {
+   "name": "description",
+   "type": "text",
+   "label": "Description"
+  },
+  {
+   "name": "url",
+   "type": "text",
+   "label": "URL"
+  },
+  {
+   "name": "shape_length",
+   "type": "double",
+   "label": "Shape Length"
+  },
+  {
+   "name": "shapre_area",
+   "type": "double",
+   "label": "Shapre Area"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "object_id": 5,
+   "view_number": "J1",
+   "view_cone_name": "Creekside Park",
+   "description": "View of Lions from Creekside Park",
+   "url": "https://vancouver.ca/home-property-development/creekside-park-public-view.aspx",
+   "shape_length": 4238.81439486446,
+   "shapre_area": 144235.766540339,
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.10297367663784, 49.27516516517493], [-123.11177412350047, 49.29267377983227], [-123.10991400143487, 49.293028034925634], [-123.10297367663784, 4"
+   },
+   "geo_point_2d": {
+    "lon": -123.10822060052439,
+    "lat": 49.28695565997761
+   }
+  },
+  {
+   "object_id": 7,
+   "view_number": "10",
+   "view_cone_name": "Granville Island",
+   "description": "View of Hollyburn Mountain and Mount Strachan from Granville Island",
+   "url": "https://vancouver.ca/home-property-development/granville-island-public-view.aspx",
+   "shape_length": 5120.92062384527,
+   "shapre_area": 398426.569769506,
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.1341528438892, 49.27243820488794], [-123.1461779243708, 49.29248038850457], [-123.14179921663418, 49.293379880811656], [-123.1341528438892, 49.2"
+   },
+   "geo_point_2d": {
+    "lon": -123.14070999496472,
+    "lat": 49.28609949140139
+   }
+  },
+  {
+   "object_id": 10,
+   "view_number": "21",
+   "view_cone_name": "Commercial Drive",
+   "description": "View of Crown and Grouse Mountain from Commercial Drive and West Broadway",
+   "url": "https://vancouver.ca/home-property-development/commercial-drive-public-view.aspx",
+   "shape_length": 7284.97814380928,
+   "shapre_area": 1130737.56092893,
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [[[-123.06962490922585, 49.26220926320878], [-123.07732887834986, 49.291442953000676], [-123.06786624893613, 49.29184894853095], [-123.06962490922585, 4"
+   },
+   "geo_point_2d": {
+    "lon": -123.07160667883728,
+    "lat": 49.28183372158013
+   }
+  }
+ ],
+ "total_count": 24
+}

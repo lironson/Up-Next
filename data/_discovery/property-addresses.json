@@ -1,0 +1,107 @@
+{
+ "title": "Property addresses",
+ "fields": [
+  {
+   "name": "civic_number",
+   "type": "text",
+   "label": "CIVIC_NUMBER"
+  },
+  {
+   "name": "std_street",
+   "type": "text",
+   "label": "STD_STREET"
+  },
+  {
+   "name": "p_parcel_id",
+   "type": "text",
+   "label": "P_PARCEL_ID"
+  },
+  {
+   "name": "pcoord",
+   "type": "text",
+   "label": "PCOORD"
+  },
+  {
+   "name": "site_id",
+   "type": "text",
+   "label": "SITE_ID"
+  },
+  {
+   "name": "note",
+   "type": "text",
+   "label": "NOTE"
+  },
+  {
+   "name": "geo_local_area",
+   "type": "text",
+   "label": "Geo Local Area"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "civic_number": "4688",
+   "std_street": "W 6TH AV",
+   "p_parcel_id": "__FJ1UV0",
+   "pcoord": "64302012",
+   "site_id": "013245945",
+   "note": null,
+   "geo_local_area": "West Point Grey",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.21459606491185, 49.26711257175633], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.21459606491185,
+    "lat": 49.26711257175633
+   }
+  },
+  {
+   "civic_number": "4668",
+   "std_street": "W 6TH AV",
+   "p_parcel_id": "__FJ1UV8",
+   "pcoord": "64302022",
+   "site_id": "013245988",
+   "note": null,
+   "geo_local_area": "West Point Grey",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.21404555221582, 49.26710594698105], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.21404555221582,
+    "lat": 49.26710594698105
+   }
+  },
+  {
+   "civic_number": "4630",
+   "std_street": "W 6TH AV",
+   "p_parcel_id": "__FJ1UVI",
+   "pcoord": "64302062",
+   "site_id": "010129774",
+   "note": null,
+   "geo_local_area": "West Point Grey",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.2130709386766, 49.26709109823944], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "geo_point_2d": {
+    "lon": -123.2130709386766,
+    "lat": 49.26709109823944
+   }
+  }
+ ],
+ "total_count": 99728
+}

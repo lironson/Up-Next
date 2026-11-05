@@ -1,0 +1,207 @@
+{
+ "title": "Issued building permits",
+ "fields": [
+  {
+   "name": "permitnumber",
+   "type": "text",
+   "label": "PermitNumber"
+  },
+  {
+   "name": "permitnumbercreateddate",
+   "type": "date",
+   "label": "PermitNumberCreatedDate"
+  },
+  {
+   "name": "issuedate",
+   "type": "date",
+   "label": "IssueDate"
+  },
+  {
+   "name": "permitelapseddays",
+   "type": "int",
+   "label": "PermitElapsedDays"
+  },
+  {
+   "name": "projectvalue",
+   "type": "double",
+   "label": "ProjectValue"
+  },
+  {
+   "name": "typeofwork",
+   "type": "text",
+   "label": "TypeOfWork"
+  },
+  {
+   "name": "address",
+   "type": "text",
+   "label": "Address"
+  },
+  {
+   "name": "projectdescription",
+   "type": "text",
+   "label": "ProjectDescription"
+  },
+  {
+   "name": "permitcategory",
+   "type": "text",
+   "label": "PermitCategory"
+  },
+  {
+   "name": "applicant",
+   "type": "text",
+   "label": "Applicant"
+  },
+  {
+   "name": "applicantaddress",
+   "type": "text",
+   "label": "ApplicantAddress"
+  },
+  {
+   "name": "propertyuse",
+   "type": "text",
+   "label": "PropertyUse"
+  },
+  {
+   "name": "specificusecategory",
+   "type": "text",
+   "label": "SpecificUseCategory"
+  },
+  {
+   "name": "buildingcontractor",
+   "type": "text",
+   "label": "BuildingContractor"
+  },
+  {
+   "name": "buildingcontractoraddress",
+   "type": "text",
+   "label": "BuildingContractorAddress"
+  },
+  {
+   "name": "issueyear",
+   "type": "text",
+   "label": "IssueYear"
+  },
+  {
+   "name": "geolocalarea",
+   "type": "text",
+   "label": "GeoLocalArea"
+  },
+  {
+   "name": "geom",
+   "type": "geo_shape",
+   "label": "Geom"
+  },
+  {
+   "name": "yearmonth",
+   "type": "text",
+   "label": "YearMonth"
+  },
+  {
+   "name": "geo_point_2d",
+   "type": "geo_point_2d",
+   "label": "geo_point_2d"
+  }
+ ],
+ "samples": [
+  {
+   "permitnumber": "BP-2019-03381",
+   "permitnumbercreateddate": "2019-07-30",
+   "issuedate": "2019-08-16",
+   "permitelapseddays": 17,
+   "projectvalue": 70000.0,
+   "typeofwork": "Addition / Alteration",
+   "address": "717 E HASTINGS STREET, Vancouver, BC V6A 1R3",
+   "projectdescription": "Field Review - Addition / Alteration - 717 E Hastings St\r\n\r\nInterior alterations to provide tenant improvements for new office tenant in this existing office building on this site.\r\n\r\nScope of work: remove interior walls and doors, add new walls, door and accessible washroom. \r\n\r\nProcessed through CRC\r\n\r\nL2 - Lighting - Upgrade to incorporate Automatic Lighting Shutoff (per 9.4.1.1 of ASHRAE 90.1-...",
+   "permitcategory": "Renovation - Commercial/ Mixed Use - Lower Complexity",
+   "applicant": "Lori  Therres DBA: Counterpoint Interiors Inc",
+   "applicantaddress": "223-1118 Homer Street\r\nVancouver , BC  V6B 2X6",
+   "propertyuse": [
+    "Office Uses"
+   ],
+   "specificusecategory": [
+    "General Office"
+   ],
+   "buildingcontractor": null,
+   "buildingcontractoraddress": null,
+   "issueyear": "2019",
+   "geolocalarea": "Strathcona",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.0884852, 49.2814314], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "yearmonth": "2019-08",
+   "geo_point_2d": {
+    "lon": -123.0884852,
+    "lat": 49.2814314
+   }
+  },
+  {
+   "permitnumber": "BP-2019-05550",
+   "permitnumbercreateddate": "2019-12-06",
+   "issuedate": "2020-01-31",
+   "permitelapseddays": 56,
+   "projectvalue": 400000.0,
+   "typeofwork": "Addition / Alteration",
+   "address": "595 HOWE STREET, Vancouver, BC V6C 2T5",
+   "projectdescription": "Field Review - Addition / Alteration - #800 - 8th floor -  595 Howe St \r\n\r\nInterior alterations to suite #800 on the 8th floor (whole floor tenant) to renovate for new office tenant in this existing commercial building.\r\n\r\nLetters of assurance submitted:\r\nSch A: D. Massie, AIBC, 604.264.1450\r\nSch B (Arch): D. Massie, AIBC, 604.264.1450\r\nSch B (Elect): N.S. Bains, P.Eng, 604.569.6500\r\n\r\nOK for Fiel...",
+   "permitcategory": "Renovation - Commercial/ Mixed Use - Lower Complexity",
+   "applicant": "Lori  Therres DBA: Counterpoint Interiors Inc",
+   "applicantaddress": "223-1118 Homer Street\r\nVancouver , BC  V6B 2X6",
+   "propertyuse": [
+    "Office Uses"
+   ],
+   "specificusecategory": [
+    "General Office"
+   ],
+   "buildingcontractor": "Counterpoint Interiors Inc",
+   "buildingcontractoraddress": "1118 HOMER ST  \r\nUnit 223\r\nVancouver, BC  V6B 6L5",
+   "issueyear": "2020",
+   "geolocalarea": "Downtown",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1174373, 49.2846042], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "yearmonth": "2020-01",
+   "geo_point_2d": {
+    "lon": -123.1174373,
+    "lat": 49.2846042
+   }
+  },
+  {
+   "permitnumber": "BP-2021-02686",
+   "permitnumbercreateddate": "2021-06-02",
+   "issuedate": "2021-07-29",
+   "permitelapseddays": 57,
+   "projectvalue": 7466.8,
+   "typeofwork": "Addition / Alteration",
+   "address": "2415 COLUMBIA STREET, Vancouver, BC V5Y 3E7",
+   "projectdescription": "High Density Housing / Commercial - Addition / Alteration - Interior alteration to demise unit #102 into two units (#102 & # 103) on the second storey (main level) in this existing 3 storey office building.\r\n\r\nTo be reviewed under the 2019 VBBL.",
+   "permitcategory": null,
+   "applicant": "Lori  Therres DBA: Counterpoint Interiors Inc",
+   "applicantaddress": "223-1118 Homer Street\r\nVancouver , BC  V6B 2X6",
+   "propertyuse": [
+    "Office Uses"
+   ],
+   "specificusecategory": [
+    "General Office"
+   ],
+   "buildingcontractor": null,
+   "buildingcontractoraddress": null,
+   "issueyear": "2021",
+   "geolocalarea": "Mount Pleasant",
+   "geom": {
+    "type": "Feature",
+    "_truncated": true,
+    "sample": "{\"type\": \"Feature\", \"geometry\": {\"coordinates\": [-123.1096722, 49.2636528], \"type\": \"Point\"}, \"properties\": {}}"
+   },
+   "yearmonth": "2021-07",
+   "geo_point_2d": {
+    "lon": -123.1096722,
+    "lat": 49.2636528
+   }
+  }
+ ],
+ "total_count": 52572
+}
